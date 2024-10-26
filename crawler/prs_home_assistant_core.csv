@@ -1,0 +1,3378 @@
+,ID,Title
+0,129127,Add battery device class to RFLink
+1,129056,Fix Login issue with Pycloud
+2,128964,Estimate fine Opower costs when not provided
+3,128918,Add musicassistant integration
+4,128895,date extraction from google task
+5,128881,feat: add device trigger and conditoins to Steam Integration
+6,128873,Add battery device class to RFLink
+7,128791,Adding OpenWeatherMap Minutely forecast action
+8,128574,Add support for CumulativeEnergyExported attribute
+9,128550,Fix issue when current_state is None
+10,128544,Add ability to run CI on a single integration despite changes to core files
+11,128524,Issues from group 3
+12,128523,Reshad2.0(Issues from group 3)
+13,128512,Assignment 2b
+14,128492,Fix code smells in components/auth & components/alexa
+15,128470,Update hass_decorator.py
+16,128417,Add missing translation strings for Mold Indicator
+17,128403,Fix translation string in motioneye
+18,128302,Fixed the invariant return function of the method (_async_load_data) and the equality checks (math function)
+19,128263,Issue 6_group3_Refactoring support_mfa as a class level variable in homeassistant/auth/providers/__init__.py
+20,128247,Palazzetti CBox
+21,128239,Fixed the Increased Cognitive Complexity issue in auth/__init__.py file
+22,128216,"Revert ""Add coordinator to Daikin"""
+23,128165,Fix missing devices page for utility meters created in YAML
+24,127997,"Add date, datetime, Decimal to StateType alias"
+25,127897,modified devcontainer configuration
+26,127769,Refactor this method to not always return the same value.
+27,127749,Add aiofiles to package constraints
+28,127746,Unused function parameters should be removed
+29,127640,"Fixed user not found const, and credentials not found const."
+30,127605,Fix evohome HVAC modes for VisionPro Wifi systems
+31,127421,"Add reset filter timer button, boost switch, and sensors to Smarty"
+32,127307,Simplify reconfigure step in reolink config flow
+33,127268,Fix spikes caused by incorrect queue order in statistics integration
+34,127219,making the code cleaner
+35,127109,Add Appartme System integration
+36,126865,Convert evohome's test factory into an async generator
+37,126839,Update log error message for Samsung TV
+38,126827,Improve assist satellite state names
+39,126785,Bump smhi-pkg to 1.0.18
+40,126612,added docstrings
+41,126453,Add support for new JVC Projector auth method
+42,126407,Fix evohome HVAC modes for VisionPro Wifi systems
+43,126382,Remove superfluous type hints from evohome
+44,126316,Fix reloading Tuya resets switches and binary sensors to On state
+45,126311,Add setting schedule action for Husqvarna Automower
+46,126298,Add Domika integration
+47,126297,Add Domika integration
+48,126013,Add EzBEQ integration
+49,125987,Update string formatting to use f-string on components
+50,125945,F string lint
+51,125908,Minor refactor of evohome tests
+52,125880,Add async_register_entity_service for linkplay http custom commands
+53,125663,Add climate platform to LG ThinQ integration
+54,125625,Handle announcement finished for ESPHome TTS response
+55,125552,Websocket events
+56,125543,Hoda-Branch
+57,125498,Add Airzone HTTP quirks options
+58,125453,Reuse Roborock translations in Xiaomi Miio
+59,125401,Test comment added for Hoda
+60,125383,Migrate ESPHome to assist satellite
+61,125173,Assist satellite
+62,125148,Add sensor platform for LG ThinQ integration
+63,125095,Add platinum quality to madvr
+64,125089,Add support for fixed swing to Gree
+65,124963,Change of acmeda element unique_id
+66,124949,Add ESPHome assist satellite entity
+67,124727,Incorporate assist satellite entity feedback
+68,124686,Update .core_files.yaml
+69,124677,Split august and yale integrations
+70,124644,"Fix time-based statistics (peaks, incorrect values)"
+71,124635,Fix statistics incl time based averages
+72,124528,Add switchbot cloud webhook and vaccum
+73,124526,Update opentherm_gw service actions
+74,124449,Fix closing an already closed Tailwind cover
+75,124448,Add remote pipeline trigger for Assist satellite
+76,124405,Enable Ruff TCH rules (part 4)
+77,124404,Enable Ruff TCH rules (part 3)
+78,124402,Enable Ruff TCH rules (part 2)
+79,124397,Enable Ruff TCH rules (part 1)
+80,124297,Add integration for Qbus
+81,124169,Fix comment typo
+82,124163,hue: remove custom None effect in favor of no_effect
+83,124077,Update Prosegur API domain to api-smart.prosegur.cloud
+84,124057,Fix Yamaha duplicate entities
+85,124013,Fix VIZIO power and source change issues
+86,123953,Add Favorites support to Media Browser for Squeezebox Integration
+87,123846,Set available property in russound base entity
+88,123830,Add Assist satellite entity + VoIP
+89,123779,Add reauth config flow to Mastodon
+90,123744,Prefer external url in tts
+91,123658,Add Matter Identify Function
+92,123600,Add missing step in history_stats options flow
+93,123565,Add EveWeather Pressure and Altitude attributes
+94,123555,Devirex version
+95,123455,Fix QNAP sensors precision display
+96,123418,Allow manual deletion of stale Schlage devices
+97,123341,Add LG ThinQ Integration
+98,123297,Fix yamaha logging
+99,123291,Convert Matter microwave oven mode to sensor entity
+100,123219,Reduce refoss refresh interval
+101,123215,Add lgthinq components
+102,123090,Extend the functionalities and statuses of lawn_mower integration
+103,123077,Fix geniushub switch identification
+104,123076,Add pipeline language into default prompt
+105,122993,Fix tuya climate temperature
+106,122944,Allow SNMP switches to compare string payloads in addition to integers
+107,122822,Add entities for lutron_caseta remotes
+108,122814,Add ffmpeg proxy HTTP view
+109,122761,feat(plant): add humidity attribute
+110,122702,Use Home Assistants currency unit instead of USD in Opower
+111,122668,Fix FritzBox sockets switch very slowly
+112,122605,Calendar location and attendees
+113,122522,Add config flow to Evohome
+114,122504,Block older version of mydolphin_plus
+115,122423,add option to change openai base url
+116,122385,Add sensor device classes
+117,122382,added TIS control to core brands
+118,122370,Mastodon config via UI plus new sensors
+119,122364,Store Gree coodinators in entry runtime_data
+120,122322,Add button platform to MadVR
+121,122294,Add alpha_vantage configurable scan interval
+122,122148,Add Anglian Water integration
+123,122147,Switcher
+124,122143,Lviv poweroff
+125,122131,Add a constant offset filter to filter integration
+126,122128,Improve code quality on simulated
+127,122061,Feat/room sensor
+128,122059,Upgrade pycoolmasternet-async to release 0.2.0
+129,122052,Return from ha-av to av 12.2.0
+130,122051,Update sensor.py
+131,121999,Fever smart
+132,121995,Make simulated a helper
+133,121949,Telegram client integration
+134,121936,Allow for auth permissions to be set by label
+135,121930,Change device_class to moisture for tuya soil sensors
+136,121919,Add switchbot cloud services to list and control devices
+137,121890,Add SensorPush Cloud integration
+138,121874,Fix Motionblinds Bluetooth battery sensor unique_id
+139,121859,Add explicit mashumaro dependency in airgradient
+140,121858,Add explicit pydantic pin for integrations that directly import pydantic
+141,121835,Add configuration_url to QNAP
+142,121831,Revert caching of Content-Type headers
+143,121731,Fix tuya invalid datatype issue on state update
+144,121706,Add pushover TTL API parameter support
+145,121699,Add 17Track new service add_package
+146,121636,Add a locale to the alexa remote capability
+147,121625,Extend Epson projector integration to support serial
+148,121599,Add Fluss integration
+149,121551,Ignore offline devices in ViCare integration
+150,121482,Fix reauth error and exception in ista EcoTrend integration
+151,121477,Add limited templates to time trigger at option
+152,121460,Support Lutron 4 speed fans
+153,121451,Add option to trigger template triggers when the template updates
+154,121393,Fix tado error message when turning off AC with fan modes
+155,121368,Remove Modbus deprecated CONF_RETRIES
+156,121290,Add AsyncCallable type alias
+157,121277,Asyncua feature
+158,121149,Bump velbusaio to 20230703
+159,121105,Add Azure OpenAI support to openai_conversation component
+160,121021,"Add ""App-specific password"" string"
+161,120969,Allow listdir in /proc in the event loop
+162,120811,Add basic user info API
+163,120764,Yamaha device setup enhancement with unique id based on serial
+164,120752,Add MockOf typing helper
+165,120751,Add unique id to emoncms
+166,120748,Add Wallbox charging schedules functionality
+167,120663,Add const module to emoncms
+168,120575,Replace Generator import with collections.abc for Reolink tests
+169,120538,Add iskra integration
+170,120499,Update library for nfadnroidtv
+171,120498,Add iskra integration
+172,120463,"Fix ""closing"" to ""closed"" state when cover is already closed"
+173,120425,let user choose update interval
+174,120379,Add Roborock to strict typing
+175,120362,Use runtime_data in github
+176,120245,A fix to allow my Aqara sensor to become triggerable again as soon as…
+177,120222,Update manifest.json
+178,120186,Use SensorEntityDescription in emoncms
+179,120109,Feature/iotmeter bugfixes
+180,120040,Fix apple tv missing artwork on macOS
+181,120029,Upgrade aladdin sdk with new license
+182,120016,Fix value cast error in Tuya base
+183,119858,bump xiaome_ble to 0.30.0
+184,119857,Adx stability bug fix
+185,119778,Typing for hass.data in Mobile App
+186,119734,Add actual (previous) price sensor for amberelectric
+187,119688,Add unique id to envisalink
+188,119659,"Fix fan-only mode on Samsung ACs which use ""wind"" instead of ""fanOnly"""
+189,119562,Fix use-implicit-booleaness-not-comparison in core tests
+190,119535,Allow setting high/low target temperature on MQTT water heater
+191,119485,Add Sync option to modbus switch and light
+192,119457,"Add GoogleCalendarEvent class with ""attendees"" attribute"
+193,119447,Device integration for Tplink Deco
+194,119431,bump buieradar to 1.0.6
+195,119428,Support time entities in time conditions
+196,119414,Add LLM API to get travel time and directions from Google Maps (directions api)
+197,119343,Add icon for climate preset mode none
+198,119295,Fix AWS blocking call
+199,119237,Add Kermi integration
+200,119231,Allow openweathermap integration to use locations from a zone
+201,119176,Add user-configurable keepalive to ollama
+202,119075,Add dreo integration fan
+203,119069,Fan
+204,118999,New Integration - Leslie's Pool Test Results
+205,118958,Bump pyElectra to 1.2.1
+206,118908,Add weather partly cloudy night icon and string
+207,118858,Automatically update Matter server add-on if needed
+208,118845,Bump python-roborock 2.2.3
+209,118813,Add tag to friendly name in emoncms
+210,118801,Create sensor.py
+211,118800,Update const.py
+212,118799,Update __init__.py
+213,118797,Create en.json
+214,118749,Include script description in LLM exposed entities
+215,118723,test
+216,118695,Add after_dependancy on integration and utility_meters for group
+217,118659,Updating pyunifiprotect to 6.0.1 + updating device attributes due to breaking changes.
+218,118464,Allow letters A-D in WorxLandroid pin codes
+219,118460,Delete removed device(s) at runtime in Plugwise
+220,118445,Add Withings binary sensors restore state
+221,118374,"""Clean up code and update CAME Domotic server constants"""
+222,118370,Split launch_library into separate coordinators
+223,118232,Refactor RDW tests
+224,118179,Bump bimmer_connected to 0.15.3
+225,118157,Add diagnostics for Google Generative AI
+226,118129,Clean up unneccesary async_block_till_done calls
+227,118114,Break long strings in LLM tools
+228,118111,Introduce Sunsynk web api integration
+229,118034,New device class energy_forecast
+230,118030,Add user_device_id and user_id variables to the Ollama system prompt
+231,117947,Add HTTP API for LLM Tools
+232,117931,Add unique id to vlc configuration
+233,117911,Add unique id to emoncms integration
+234,117889,LLM tool applicability
+235,117831,Add Duwi integration
+236,117808,Add pulse functionality to modbus switches
+237,117789,Add dreo integration fan
+238,117774,Fan
+239,117755,Add alarm clock helper
+240,117749,"Whois component maintenance, PR 1 of 3: Light refactoring, adding abstraction"
+241,117704,Bump pyunifiprotect to 6.0.1
+242,117697,Ecovacs position sensor
+243,117689,Improve Elmax alarm control panel
+244,117627,Added dreo integration fan
+245,117624,Add dreo integration Fan
+246,117617,Add platform Fan
+247,117615,Fix blocking code in AirNow sensor
+248,117586,Clean up Awair coordinator
+249,117524,Reschedule_control
+250,117483,Add function to check internal network availability
+251,117434,Map telegram users to home assistant users in telegram bot
+252,117389,Reduce bitcoin sensor scan interval
+253,117376,Support Tuya AM43(Zigbee) Blind drive motor
+254,117367,Add condition to trigger template entities
+255,117359,Improve modbus validate_entity for conflicting addresses
+256,117338,Fix climate turn_on/off deprecation warning
+257,117297,Update devcontainer.json
+258,117200,Add support for animal detections in Unifi Protect integration
+259,117191,Add support for Airzone Aidoo in ZHA
+260,117156,Add service to openai integration to use openai vision
+261,117102,Modbus value translations
+262,117101,Fix growatt server issues in previous tests
+263,117070,Add aseko pool live entity descriptions for known sensors
+264,117016,new official genie integration
+265,116987,Add new integration for aidot
+266,116976,Add new integration for Aidot Wi-Fi light.
+267,116957,Add LedSC integration
+268,116885,Use socket to support LIRC
+269,116881,Allowlist_external_dirs_docs_link
+270,116826,Custom forecast
+271,116789,Improve intent slot schema handling
+272,116698,Notifications translations
+273,116408,Don't use coordinator for Button and Event
+274,116371,Add blebox SmartMeter sensor
+275,116338,Redact sensitive data in Plugwise diagnostics
+276,116314,Add import calendar events endpoint
+277,116305,Migrate OpenWeaterMap to new library (support API 3.0)
+278,116252,Add Jewish Calendar attributes for non-date sensors
+279,116235,Migrate OpenWeatherMap to new library
+280,116232,Migrate integration to new library
+281,116141,Avoid blocking the event loop when unloading Monoprice
+282,116140,Add Espressif System Zigbee
+283,116119,Add ubus device_tracker signal state attribute
+284,116088,Add missing availability string in sensor scrape config flow
+285,115963,Change port to avoid colission
+286,115957,Add Event support to ESPHome components
+287,115922,Add platform argument to snapshot_platform test helper
+288,115911,Use new python package in fixer integration
+289,115900,Enforce using f-string
+290,115861,Fix color mode detection for colored template light
+291,115850,Add device HmIP-ESI-IEC and HmIP-ESI-GAS
+292,115725,Increase BRIDGE_TIMEOUT for large Lutron QSX deployments
+293,115712,Avocent direct pdu integration
+294,115711,Add template support for SQL query
+295,115694,Don't use sed to uncomment packages when building wheels
+296,115693,Support for track as attribute for Rejseplanen sensor
+297,115687,Enable Ruff Preview
+298,115615,Adjust zha sensor decimal point automatically according to the value
+299,115613,Add Swidget integration
+300,115604,Add support for tuya ggq irrigator
+301,115580,Fix duplicated sensor uuid in solax integration
+302,115535,"Improve of the ""wk"" thermostat in the tuya integration"
+303,115534,Migrate clickatell notify service
+304,115510,Add Notify entity for Bring
+305,115503,Move demo notify tests
+306,115438,Add another Tuya LED controller bluetooth ID
+307,115436,Add effect select entity to WLED devices
+308,115424,Add support for another Tuya BLE ID
+309,115408,Add device time for supported broadlink devices
+310,115358,Add Dlink coordinator
+311,115356,Change SunWeg polling to DataCoordinator
+312,115332,Enable Ruff PYI024
+313,115326,Add entity for current room to Roborock
+314,115310,Add json_attributes_path configuration for command_line sensor
+315,115281,Feature/balboa high range
+316,115140,Simplisafe motion capture support
+317,115089,Support ggq
+318,115088,Support Tuya Diivoo dual zone irrigation kit (ggq)
+319,114937,Enable lazy discover in xiaomi miio for additional models
+320,114903,Move System Bridge services to dedicated file
+321,114828,Support Nordic nRF52840 Dongle
+322,114823,Support Tyua Diivoo dual zone irrigation kit
+323,114781,Ecobee Auxilary Heat Threshold (Heat Pump Compressor Lockout)
+324,114686,Add current 'operation_state' attribute to hive water_heater
+325,114674,add current 'operation_state' attribute to hive water_heater
+326,114597,Refactor Lastfm tests
+327,114531,Add integration for APsystems EZ1 microinverter
+328,114481,Add support for Tuya 'Tank A Level' sensor (ywcgq) - EPT Tech Smart TLC2206
+329,114476,Include serial number in HomeKit device info
+330,114474,Added integration for APsystems EZ1 microinverter
+331,114457,Define entity_id of Statistics sensor
+332,114435,Add gree water tank binary sensor
+333,114433,Add water tank binary sensor
+334,114390,Add platform tests to enphase_envoy
+335,114347,Improve climate deprecation log condition
+336,114290,Add Climate groups
+337,114275,Fix Google Cloud TTS
+338,114225,Add buttons to Motionblinds BLE integration
+339,114224,Add sensors to Motionblinds BLE integration
+340,114130,Fixed unit handling in climate.py
+341,114064,Adding config flow to Genius hub integration
+342,114023,Tado add init strict typing
+343,114003,Clamp value to a multiple of the step in number.set_value service
+344,114000,Add buttons to Blue current integration
+345,113997,Add adax on/off functionality for local heaters
+346,113945,Use snapshot assertion for websocket_api and api get service tests
+347,113894,Add horizon information to forecast.solar integration
+348,113768,Media2
+349,113761,Respect WyomingSatelliteMuteSwitch state on start
+350,113678,Add measurement state classes to ARWN component
+351,113663,new revision
+352,113603,Add typecasting for brightness and temperature for tuya lights
+353,113568,"When migrating PrusaLink, handle connection error"
+354,113538,Add Matter alternate label name for Generic Switch buttons
+355,113507,Fix netatmo rain_today state class
+356,113486,Tibber: Allow multiple integrations
+357,113407,Add support for BleBox MulitSensor illuminance sensor
+358,113216,Convert dsmr to getattr instead of using the dict interface
+359,113214,feat: Tuya Integration for IBS-M2 wsdcg
+360,113164,Decrease 10 seconds limit of scan interval to 1 in NUT integration
+361,113157,Preserve DataUpdateCoordinator._job backwards compatibility for subclasses
+362,113147,Add Media player send_command service
+363,113088,Support Tuya contact sensors with non-standard status names
+364,113078,Add support for BleBox MulitSensor illuminance sensor
+365,113065,Add GoDice integration
+366,113059,Add climate entity for Legrand 064882 cable outlet
+367,113024,Add Home Connect settings
+368,112878,Make async_at_start wait for the start event to be fired
+369,112867,Add PM4 constant for particulates < 4μm
+370,112857,Add more additional state attributes to denonavr receivers
+371,112855,Add PM4 constant for particulates < 4μm
+372,112817,Add OCPP Status sensor to Wallbox integration.
+373,112676,Make sure Notion saves new refresh token upon startup
+374,112672,Add config flow for sinch
+375,112664,Add Freebox wifiguest devices
+376,112659,"Add DSMR meters with only ""Equipment Identifier (Gas)"""
+377,112651,Cache Conversation ID in Wyoming Satellite pipelines
+378,112611,Add HassClimateSetTemperature intent
+379,112604,Fixes #112591 ModBus validator uses undefined variable
+380,112569,Add sensors for Aprilaire integration
+381,112511,Add aWATTar integration
+382,112431,Allow vacuum.send_command to return responses
+383,112178,Add device_info test case for ViCare integration
+384,112073,Add standard deviation calculation to min_max
+385,112048,Make speed of Switchbot Curtain configurable
+386,112047,Add ability to cache Roborock maps instead of always reloading
+387,111913,Updates for Inovelli fan switch and canopy module
+388,111746,Test
+389,111642,Fix error when config_flow is missing
+390,111584,Add support for white mode on Lutron temperature controlled devices
+391,111465,Add plexamp integration
+392,111452,Light group sync
+393,111418,Bump tesla_powerwall to 0.5.2 and accommodate optional values from the module
+394,111410,Add more icon translations to Bring
+395,111301,Adds calendar entity in Moon
+396,111300,"Add Motionblinds virtual integrations Acomax, Krispol and Madeco"
+397,111281,Update pysml dependency for edl21 to 0.1.2
+398,111222,Add entities for lights and pumps to Balboa Spa integration
+399,111202,Add sensors for NIS and NACamDoorTag devices
+400,111158,Add ability to reduce cache duration for advanced API access in ViCare integration
+401,111151,Dynamic entity creation for tplink
+402,111111,Add Wi-Fi to device tracker location SourceType
+403,111109,init
+404,111089,Add service to set Snapcast volume
+405,111043,Add preview to Threshold config & option flow
+406,110972,Bump AIOAladdinConnect to 0.2.0
+407,110820,Add battery charging binary sensor to permobil
+408,110679,Add synchronous download and authentication support to downloader integration
+409,110664,Add to/from/not_to/not_from to template trigger
+410,110629,Support Tuya AM43(Zigbee) Blind drive motor
+411,110582,Add backup created event when HA backup finish
+412,110556,Processor use shows 0% and 100% limits after updating to 2023.11
+413,110550,Add backup created event when new HA backup finish
+414,110527,Allow message to be passed to a script when calling from Notify RESTAPI service
+415,110506,Refactor keymitt_ble Config Flow
+416,110426,Add some myuplink tests
+417,110226,Fix TodoItem uid to include the specification attribute
+418,110221,Improve MFA TOTP onboarding experience
+419,110191,Assume off-state for Volumio media player when not reachable
+420,110190,Add packet-loss as an attribute to the Ping integration (#110188)
+421,110132,Reduce zabbix integration to the zabbix sender part
+422,109945,Add icon translations to ecobee
+423,109918,Filter X-Forwarded-For: unknown value
+424,109815,Small cleanup hassio coordinator
+425,109806,Handle SwitchBot Cloud devices being offline somewhat more gracefully
+426,109801,Add Switchgrid integration
+427,109773,Allow unix timestamp values for DATE and TIMESTAMP device classes in MQTT
+428,109756,Reimplement Mycroft notify
+429,109689,Add new integration Yeelock
+430,109663,Add diagnostics platform to DLNA DMR integration
+431,109655,Bump python-bring-api to 3.0.0
+432,109618,Update pyhomematic to 0.1.78
+433,109308,Add Debug Tests vscode configuration to launch.json
+434,109201,Velbus Cover: Assume state for VMBxBL modules
+435,109176,Add telegram bot edit media services
+436,109075,Change url of electricitymaps.com to a working url
+437,109070,Add Husqvarna Automower integration
+438,109024,Simplisafe motion event capture and outdoor camera support
+439,108993,Redact private data from Netatmo diagnostics
+440,108989,Handle non-str to str conversion in Slugify handler
+441,108916,Add JVC Projector Sensor
+442,108863,Fixed HomeKit security system's arming state mismatch
+443,108849,Filter for an area id in jinja2 templates
+444,108813,Add bolt and latch state for zwave locks
+445,108694,Add SleepIQ core climate support for Climate 360 bed
+446,108659,JVC Projector Binary Sensor
+447,108620,Add switch platform to flexit_bacnet integration
+448,108582,Add support for Enocean magnet contact devices with EEPs D5-00-01 (Single Input Contact)
+449,108542,Add floor registry
+450,108526,Add jvc projector sensors
+451,108493,Add SERVICE_RELOAD to shell_command
+452,108378,undo create test
+453,108364,Enable strict typing for application_credentials
+454,108334,Add SimpleFIN Integration
+455,108312,Support latest Linksys Smart WiFi firmware
+456,108245,Add services to La Marzocco integration
+457,108207,Clarify simplisafe instructions for obtaining auth code from browser dev console
+458,108138,RFC: Bluesound zerconf and config flows
+459,108122,Notify user of new Shelly firmwares
+460,108118,Add battery_charging & last_seen attributes to GPSLogger
+461,108116,Add Tado add meter readings service
+462,108104,Add a repair issue for Shelly devices with unsupported firmware
+463,108070,Add missing dependencies
+464,108057,Catch SSL errors in MJPEG config flow
+465,108056,This is a test.
+466,108030,Add matrix message format 'notice' (m.notice)
+467,108017,Update const.py
+468,108004,Fix readme images
+469,107958,Fix readme images
+470,107949,Add TICMeter Energy Metering sensors
+471,107851,Add WittIOT integration
+472,107842,Gdacs truthy 01122024
+473,107809,Add Ecovacs MQTT integration
+474,107750,Bump thermopro-ble to 0.6.0
+475,107749,Add bzutech integration
+476,107747,Add bzutech integration
+477,107716,Add phase entities to Enphase Envoy metered
+478,107704,Add unique_id for ZoneMinder cameras
+479,107690,Add GeoJSON properties in the entities extra attributes
+480,107669,Openweathermap forecast descriptions
+481,107619,Add absolute() template function
+482,107615,Fix SolaX solar energy production not registering energy in energy dashboard
+483,107531,Don't include position in binary valve attributes
+484,107513,Add select_random service to select and input_select
+485,107498,Update growatt server url
+486,107483,"Allow -1 in Update component to signal ""no update available"""
+487,107479,Bump Intellifire - Backing library - with minor refactor
+488,107456,Bump Blinkpy to 0.22.5
+489,107446,Guard negative values for IPP states
+490,107419,Fix for command_line authentication provider
+491,107406,Change voice assistant to use fixed ports
+492,107400,"Add device class ""screen"" for Cover"
+493,107360,Smartfox
+494,107295,Remove modbus duplicate HVAC mode address validation
+495,107216,Switch order of zwave_js task cancelling on disconnect
+496,107186,Add config flow to Torque
+497,107176,Add option to choose a rounding mode for display values of temperatures
+498,107120,Add config flow to Mold Indicator
+499,107094,Add huawei smart logger 3000 integration
+500,107054,Add Linknlink Integration
+501,107044,Add support for HLS and WebRTC Octoprint cameras
+502,106977,Add modbus option to manage different setPoint registers
+503,106964,Add Unifi Network device tracker rssi and signal attributes
+504,106949,Modernise UPC Connect integration
+505,106936,"Add sensors for daylight, night and twilight durations to the sun integration"
+506,106803,Fix caldav todo item completed status
+507,106739,Add update coordinator to Netgear LTE
+508,106565,Generalize ZHA sensors with enum values
+509,106534,Wittiot
+510,106459,Add substract to min_max helper
+511,106449,Add Zimi Cloud Controller integration
+512,106442,E3dc modbus integration
+513,106371,Switch to zmha-py package in zoneminder
+514,106320,Add more snapshot testing to Tessie
+515,106315,Add Record distance sensor to MyPermobil
+516,106310,Master
+517,106282,Increase gardena_bluetooth timeout and disconnect delay
+518,106280,Patch entity descriptions in Tessie
+519,106183,Add config flow to Velux
+520,106182,Update README.rst
+521,106180,Fix invalid attribute name of entur_public_transport
+522,106173,New Integration: Krisinformation
+523,106154,Add weather platform to Tessie
+524,106132,New Integration: WeatherFlow Cloud Data (Forecast)
+525,106014,Correct logic in honeywell for cleaning up stale devices
+526,105977,Add SIP Call Integration
+527,105963,Add scheduled to renault charge mode - fixed 105751
+528,105935,Zimi integration
+529,105929,Fastdotcom service optimization
+530,105897,Extends prometheus integration to produce device-tracker location attributes
+531,105896,Allow Common Table Expressions (WITH ... SELECT) in SQL integration
+532,105836,Bugfix/retry when setup fails
+533,105831,"Remove ""min"" from next_due_in attribute in entur public transport"
+534,105826,WIP: OpenAI Conversation - draft to invoke HA actions & communicate about device states
+535,105775,Add GigaCalorie energy unit
+536,105731,Add ZigBee device with Binary Output handling
+537,105729,Allow zone to be a polygon
+538,105704,Raise repair when Home Assistant auth runs in legacy mode
+539,105689,Fix apple TV home hold
+540,105601,"Revert ""Update AEMET-OpenData to v0.4.6"""
+541,105587,Fix stream test regular expression
+542,105583,Test sensor2
+543,105576,Unit tests
+544,105569,Add category to tag scanned data event
+545,105564,Qr2.1 test config flow
+546,105542,Add country and region selection to config flow
+547,105507,Upgrade pyhiveapi version
+548,105483,Added tests for radar image implementation in SMHI
+549,105474,Add Arctic Spa integration
+550,105460,Raise exceptions instead of logging for Lyric service failures
+551,105443,Add Keenetic NDMS2 network interfaces as switches
+552,105424,Add extra state attributes to Roborock maps
+553,105382,Add config-flow for opensensemap integration
+554,105347,"Expose the ""middleware"" parameter of Volkszaehler to platform config"
+555,105345,Refactor card-editor.js to make it more testable.
+556,105311,Set missing state_class for sensor today_yield tot TOTAL
+557,105297,Add sensors for Netatmo NIS and NACamDoorTag
+558,105264,Extend swiss_public_transport integration
+559,105229,Gradesentity bugfix
+560,105213,Add wind mode to Smartthings
+561,105192,Adding Assistant Report State For Debugging And External Services
+562,105176,Make Idasen Desk react to bluetooth changes
+563,105113,Fix DST not tracking properly
+564,105101,Modernise the OPNSense integration
+565,105036,refactor: generic thermostat tests step 1 - splitting files
+566,105023,Add Options Flow to Holiday integration
+567,105001,Create core
+568,104998,Bump openai end switch from dall-e-2 to dall-e-3
+569,104956,Add Lyric thermostat room entities
+570,104954,Handle venstar sensor missing
+571,104931,Move vesync code
+572,104924,Retry braviatv failed power status query
+573,104907,Add minimum state duration variable to history_stats sensor config
+574,104897,Update motion_light.yaml: allow the selection of groups
+575,104852,Add Jellyfin audio_codec optionflow
+576,104844,Bugfix - coordinator doesn't remove/update sensors as expected
+577,104806,Add vesync humidifier
+578,104799,Add Pydantic 2 compatibility to intellifire
+579,104794,Add support for bg and text color in core
+580,104766,Add migration for Fully Kiosk config flow
+581,104573,Migrate decora_wifi (Leviton ) to UI ConfigFlow
+582,104565,Add vdom option to fortios
+583,104554,Add support for Ring Intercom (bypass #91600)
+584,104551,Added consistent spacing
+585,104533,Add definitions for EcoNet water heaters' vacation mode
+586,104525,Allow mg/m³ in tVOC sensor measurements
+587,104437,"[Alert Integration] On Home Assistant startup, fire alert if conditions met"
+588,104436,Add Loqed last_event and misc diagnostic sensors
+589,104422,Fix incorrect MQTT Light brightness scaling using mapped bucket values instead
+590,104421,Improve Netatmo webhook registration experience
+591,104415,Add suez water sensor state class
+592,104407,Enable Daikin energy_consumption sensors by deafult
+593,104399,Fix history stats time increment accuracy (switching from ~36s to 1s)
+594,104398,Remove _wh_last sensors as they don't have consistent period
+595,104397,Skip rendering template when InfluxDB query returned no results
+596,104380,Select authors GUI
+597,104374,Add coordinator to ring integration
+598,104372,Create own devices for heating circuits in ViCare integration
+599,104351,Us8t1: Fetch radar image and map to display in frontend
+600,104342,Add integration for Fläktgroup Modbus
+601,104315,US5:T3: Make fire risk entities on the map be automatically updated
+602,104258,US1T1
+603,104256,Us3 warnings
+604,104185,Don't add roomba battery stats sensor if not supported
+605,104136,"Show OctoPrint state as ""Disconnected"" instead unknown if printer disconnected"
+606,104126,US6:T1 - Create class to fetch data from fire risk API
+607,104125,US6:T1 - Create class to fetch data from fire risk API
+608,104119,Add LinknLink integration
+609,104090,Detect and warn if min python version is not met when setting up venv
+610,104063,Create WhatIsIt
+611,103963,Add the component of linknlink
+612,103951,Fix double entries in Ban file
+613,103918,Basic panel
+614,103880,Introduce target_temperature_range attribute to climate component
+615,103773,Address late V2C review comments
+616,103748,Fix format
+617,103747,Edenia linnea sprint1
+618,103742,Thushini amanda temp cond map
+619,103728,Fix up Tuya Vacuum status values
+620,103713,Bump lupupy dependency
+621,103709,Standardize radon units & add converter
+622,103683,Add new integration for Leviosa zone
+623,103646,Salvija refactor code smells
+624,103620,Integration for EPS alarms
+625,103576,Update const.py
+626,103573,Update melcloud
+627,103542,Add growatt server url https://openapi.growatt.com/
+628,103528,Update melcloud
+629,103513,Add type hints to evohome
+630,103505,Zuzana refactor
+631,103500,Integration for EPS alarms
+632,103472,enable application_credentials component to take custom redirect_uri
+633,103455,Make Lacrosse Sensors be visible in the Area Card (UI)
+634,103443,Implement update coordinator in Proximity
+635,103422,Add Frank Energie integration
+636,103395,Replace python-tailscale dependency with a fork
+637,103389,Improve Freebox alarm
+638,103388,Eph ember fix
+639,103345,Add OVOS/Neon Voice Assistants integration
+640,103333,Add holiday name to Workday extra state attributes
+641,103227,Add switch for one-time charge in ViCare integration
+642,103198,Accept video_profile_names parameter on homekit configuration
+643,103168,Add uptime sensor to glances integration
+644,103142,"Fixing my fan: it reports valid values for speed are [1..26], but rep…"
+645,103121,"Hydrawise: Set the next_cycle sensor to ""unknown"" when a zone is suspended"
+646,103046,GTFS rework
+647,103042,Add torrent status metadata to qBittorrent integration
+648,103037,"Support tuya fan ""mist""-feature"
+649,103029,"Fix fully kiosk battery sensor setup with name ""none"""
+650,103021,Updated the script Currencies.py
+651,103019,Fix zwave_js.update restoration
+652,102970,Add support for MinSetpointDeadband attribute on a Matter thermostat device
+653,102960,✨ Support TARGET_TEMPERATURE_RANGE for water heater entities
+654,102957,Add songpal set speaker settings service
+655,102927,Bump aiovlc to 0.3.2
+656,102909,Update README.rst
+657,102841,Implement ADD_ELE DPCodes in Tuya component (Smart Socket electricity consumption reading)
+658,102802,Add support for options to airq integration
+659,102751,Increase logging level for Netatmo API connection issues
+660,102644,Change workflow file
+661,102618,Modbus sensor register size
+662,102616,Dynamic Forecast.Solar location option
+663,102590,Raise an exception if unique_id isn't serializable
+664,102586,Allow modbus custom sensor properties count and structure to mismatch in validation
+665,102559,Add names for better entity naming in Blink
+666,102558,Increase accuracy of moon phase changes
+667,102542,Add integration for Vevor BLE Heaters
+668,102432,Add zwave_js thermostat operating state sensor
+669,102428,Add unit config value to generic_thermostat
+670,102414,Bump numpy to 1.26.1
+671,102404,"Use onkyo domain for select_hdmi_output service, add service description"
+672,102366,Correct Netatmo valves type checking
+673,102361,Add notify integration TvOverlay Notifications for Android TV
+674,102351,Fix tuya fan percentage
+675,102348,Add selector for SensorDeviceClass
+676,102292,Add gas device class for gas consumption sensors in ViCare
+677,102277,Add support LITER volume unit for GAS
+678,102249,Add Overkiz Heating Zone without zone temperature sensor
+679,102231,Add Climaveneta i-MXW integration
+680,102217,Add volume control to DuneHD
+681,102213,Add connection status sensor to ViCare devices
+682,102191,Allow inversed coils to be used for modbus
+683,102190,Add deako integration using pydeako
+684,102183,Add on since sensor for tplink
+685,102165,Add olarm sensors
+686,102157,Add tuya dlq sensors
+687,102050,Make Enphase Envoy scan interval user configurable
+688,102041,Add coordinator tests in Minecraft Server
+689,102034,Add RecordController for Alexa
+690,102029,Zimi integration
+691,102014,Add prusalink legacy api support (MK3s+)
+692,101998,ledvance support for Bosch SHC
+693,101967,Point add redirect uri
+694,101950,Fix date observed is not sent by AirNow (#101921)
+695,101934,Add acaia integration
+696,101918,Add GiEX valve support to ZHA
+697,101910,Add files via upload
+698,101902,Hanna mqtt brother homekit refactoring
+699,101898,Fido define   a  constant   instead   of   duplicating   this   literal
+700,101861,Refactor shelly cognitive lekshmi
+701,101848,Support for enocean central command switching (e.g. used for Eltako F…
+702,101841,configuration.yaml
+703,101834,PB-34 Unused variables
+704,101833,[zha] Removed and changed unused variables
+705,101830,Felix branch
+706,101824,Edenia refactor code smells
+707,101823,Update launch.json
+708,101804,Add all units of measurement for selector in scrape
+709,101796,Refactor duplicate string literals
+710,101791,mert_commit
+711,101779,Remove unused variables & methods
+712,101717,Arpitanaik
+713,101714,Arpitanaik
+714,101705,Toast branch
+715,101701,Add livisi shutter
+716,101699,Refactor logbook cognitive
+717,101696,changed cover.py
+718,101695,changed cover.py
+719,101694,*IGNORE*
+720,101679,Add Config Flow to Splunk
+721,101675,Add coordinator to Twitch integration
+722,101668,Use local push api in Elmax
+723,101658,updated the cognitive complexity
+724,101646,change return type argument in empty_okay_response
+725,101640,Create fibonacci.py
+726,101625,add comment and to do into _element_changed empty method
+727,101624,String literals should not duplicate in anova sensor
+728,101623,String literals should not be duplicated - anova sensor
+729,101608,refactor exception handling in adguard component initialization
+730,101606,remove cognitive complexity in Auth package
+731,101602,Update LICENSE
+732,101595,Added Olarm integration to Home Assistant
+733,101587,Add binary_sensor for cross region event on Amcrest camera
+734,101523,Ignore size check for DataType.CUSTOM in modbus
+735,101460,"Refactoring ""Group"" to remove code smell [Intentional use]"
+736,101402,Extend caldav custom calendar search
+737,101375,Fix a type in Advantage Air
+738,101357,Do not log trace of expected error
+739,101356,"Adding support for anthropic, bedrock, azure-openai, replicate, ai21, llama2, codellama, etc."
+740,101275,Fix Lidarr disk space unique id
+741,101253,Add unique_id to ping binary_sensor
+742,101250,Add ring motion detection switch
+743,101246,Guard duotecno light service call for state
+744,101193,Implement channel picker options for Twitch
+745,101190,Add entity_registry cleaning to Plugwise
+746,101187,Replaced the home assistant with pytest function #40855
+747,101184,Add coordinator to gpsd
+748,101146,Add more settings and sensors to VeSync vital200s
+749,101095,Improve Twinkly rgbw handling
+750,101078,Additional Tomorrow.io sensors
+751,101065,PVS6 Proxy Support
+752,101034,slide: increase scan interval to 5 minites
+753,101000,Add an XY light to Demo
+754,100956,Enable Cloud Support for IntelliFire Integration
+755,100953,Bump pyvesync version
+756,100928,Add weather forecast service to get a single attribute within a time limit
+757,100876,Allow image processing being setup from config entry
+758,100859,Update for pyTwitchAPI version 4.0.0
+759,100843,Fix issues with Point
+760,100839,Clean up AEMET coordinator
+761,100830,Add connect/disconnect switch to Ikea Idasen Desk
+762,100804,Add support for settings of vital200S
+763,100790,Add Healthbox3 integration
+764,100757,Add more tomorrowio sensors
+765,100735,Add Owon PC321 Z sensors to ZHA
+766,100730,Improve Plugwise climate
+767,100704,Feature/tado freshness sensor
+768,100611,Add type hint to DataUpdateCoordinator config_entry
+769,100590,Add solax sensor name to generated uid
+770,100583,Add Flume custom alert binary sensor
+771,100569,Add Husqvarna Automower integration
+772,100523,Explicit delays in Velux updates
+773,100522,Update pyvesync to 2.1.10
+774,100505,Move gpsd constants to const.py
+775,100452,Call async added to hass super in Shelly
+776,100450,Call async added to hass super in Lutron Caseta
+777,100448,Call async added to hass super in Tractive
+778,100447,Call async added to hass super in Isy994
+779,100443,Call async added to hass super in RFLink
+780,100442,Call async added to hass super in Hunterdouglas
+781,100413,Kindhome solarbeaker integration
+782,100372,"Add ""full"" and ""empty"" device classes to binary sensors"
+783,100370,Add template modifyers to energyzero
+784,100358,Exclude sms coordinator from test coverage
+785,100354,Remove YAML configuration from Withings
+786,100320,Disable flaky modbus test
+787,100110,Add FlexMeasures integration
+788,100079,Manual trigger template handle faulty state
+789,100032,Support Enocean Eltako repeater
+790,100028,Dynamic current temperature Namron 16A touch thermostat
+791,100026,Invert moon icons when location is in southern hemisphere
+792,100016,Snooz integration supports Pro and Breez models
+793,100009,Add support for OpenWeatherMap national weather alerts
+794,99924,[smartthings] add support for components
+795,99901,Add integration EyeOnWater
+796,99878,Extend Nuki integration to expose ringer through Nuki Opener
+797,99870,Allow custom responses for sentence triggers
+798,99864,Integration for PowerPlanner
+799,99776,Add Husqvarna Automower integration
+800,99765,Keep overkiz unique ids stable for pyoverkiz >= 1.10.1
+801,99689,Add Octoprint connect and disconnect buttons
+802,99684,Add Roon volume hooks
+803,99595,Add update entity to HomeWizard
+804,99591,group: Fix executing services on new style groups
+805,99590,Remove references to name key in android ip webcam
+806,99589,overkiz: Add set_cover_position_and_tilt service
+807,99546,Add Honeywell Lyric sensors for Room entities
+808,99432,Asyncua integration to read and write value over OPCUA
+809,99413,Add reload support for alert integration
+810,99365,Add Freebox sensor tests & fix related bugs
+811,99324,Add support for lights via remote GPIO
+812,99304,💧 Aqvify integration
+813,99181,Sensor hddtemp handle standby
+814,99173,Add integration for IKEA Idasen Desk
+815,99160,Add device family 20 to support DS2450 1-Wire Quad A/D Converter
+816,99152,Update media_extractor
+817,99106,Add integration EyeOnWater
+818,99104,Improve ecoal_boiler
+819,99007,Write Integration ha state after state restore
+820,98956,Extract SRP Energy coordinator to separate file
+821,98817,Add Generic Thermostat config flow
+822,98790,Fix Lutron_Caseta shade behavior to reflect how the LEAP protocol handles open/close commands
+823,98602,Add Fastdotcom config flow
+824,98596,Bump aioswitcher to 3.4.0
+825,98574,Add device to Dexcom
+826,98555,Bump odp-amsterdam to v5.3.0
+827,98532,Improve verisure error message
+828,98501,Add back a timeout for service calls run from scripts
+829,98453,Reactive power energy units
+830,98324,Add fan binary_sensor for Venstar thermostats
+831,98264,Fix broken URLs
+832,98240,Add SpaNET integration
+833,98216,Add LoRaWAN integration
+834,98180,Expose short_forecast attribute
+835,98137,Use Local Timezone for Withings Integration
+836,98127,Group convert sensor states if possible
+837,98113,Bump aiolyric to 1.1.0
+838,98072,Add device triggers to Panasonic Viera
+839,97971,Fix Tomorrow.io integration for new users
+840,97857,Store last error in script variable if continue_on_error is true
+841,97830,Microsoft default voice types
+842,97794,Add support for OSC (Open Sound Control)
+843,97746,Add integration EyeOnWater
+844,97661,Add myself as a codeowner for Dremel 3D Printer
+845,97616,Pylint tests fixes a and b
+846,97607,Fix COSmokeSensor state update error when fetching state failed
+847,97536,Bump pyduotecno to 2023.8.0 (beta fix)
+848,97512,Add Honeywell Lyric sensors for Room entities
+849,97467,Add config flow for ping
+850,97311,Add better caching and error recovering for Roborock
+851,97298,icons and state translations
+852,97271,Update mvglive integration
+853,97266,Tomorrow.io Polling Rate
+854,97242,Add self-signed support to cert expiry
+855,97239,Set parallel updates for youtube
+856,97213,Aligned entry-functions
+857,97207,Add support for playing video on webostv
+858,97201,Add account sensors to Electric Kiwi Integration
+859,97200,Add xiaomi-ble logbook platform
+860,97182,Make tplink device port configurable
+861,97173,Add endpoint for getting a single state
+862,97076,Lutron fan
+863,97070,Add abilitity for SharkIQ to clean specific rooms
+864,96977,Add pushover ttl parameter in notification
+865,96955,Increased SQLITE_MAX_BIND_VARS for more efficient purging
+866,96915,Plugwise prepare value_fn for sensor
+867,96866,Add unique ID to push camera
+868,96835,recorder: Refactor import statements for improved code quality
+869,96826,Add entity translations to Wiz
+870,96770,Migrate Uptimerobot to has entity name
+871,96767,Add turn_on service to test_service_descriptions
+872,96764,"Add support for ""ebikes"" extra attributes"
+873,96732,Limit websocket message coalescing to aiohttp default max message size of 4MiB
+874,96599,"Add conversion of German Umlauts to “ae”, “oe”, “ue” in Home Assistant Entity Names"
+875,96558,Support 2nd Light for Tuya and Carro Ceiling Fans
+876,96539,Add SwitchBot integration option for Blind Tilt close direction
+877,96497,Implement workday sensor language option support
+878,96484,Add Climaveneta i-MXW integration
+879,96478,Add integrations for Mitsubishi-Climaveneta i-MXW and i-Life2 fancoil series
+880,96457,Introduce send_telnet_commands service for denonavr receivers
+881,96331,Add STATUS as supported feature for template vacuum
+882,96302,RFC: hassio: Retry supervisor API when not ready (work-around race-condition between supervisor and core)
+883,96252,Rename CO2Signal to Electricity Maps
+884,96225,Add Electric Vehicle Energy Constants
+885,96202,Refactor vacuum entity constants with VacuumEntityFeature
+886,96163,Add functionality to Mastodon
+887,96141,Add update_travel_time service to waze_travel_time
+888,96136,Add config flow to No-IP
+889,96100,mqtt: allow relative URLs in configuration_url
+890,96013,Add vm status service for proxmoxve
+891,96005,Refactor async_get_hass to rely on threading.local instead of a ContextVar
+892,95967,Add new integration refoss
+893,95958,Fix grouping feature for MusicCast
+894,95752,Use device class naming for nobo hub
+895,95750,Remove support for specific container images
+896,95741,Use entity name naming for Nanoleaf
+897,95706,Support HitachiAirToAirHeatPump (hlrrwifi:HLinkMainController) in Overkiz integration
+898,95664,Improve content type validation in ImageEntity
+899,95517,Add uptime information to glances
+900,95499,Add UpdateFailed to QNAP Coordinator
+901,95484,Obihai code quality: shared entity classes
+902,95448,Add entity translations to QNAP
+903,95420,Fix invalid isoformat clipping for Xiaomi test
+904,95419,Remove unneeded construct import for Eq3btsmart
+905,95414,Add MyCroftAI-Mimic3 languages to mary tts
+906,95382,"Waqi add debugging, support specifying a single station directly"
+907,95294,Updated pyopnsense to support a timeout configuration
+908,95175,Add unique_id for MPD media_player
+909,95147,Add fully kiosk 'change_location' service
+910,95146,Add battery_sim component
+911,95112,Add humidity to OpenWeatherMap forecast
+912,95063,Openweathermap humidity
+913,95006,EnergyID integration
+914,94994,Add Victron BLE integration
+915,94964,Fix Tuya Termostat show 5 times smaller temperature #85783
+916,94821,Add integration for Midea AC via control module 15
+917,94805,Add evohome FocusProWifi
+918,94764,Add Volvo statistics
+919,94752,Add glances raid plugin sensors
+920,94737,Opentherm web
+921,94730,Add unit of electric charge as unit of measurement option
+922,94695,Fix bluetooth tracker asyncio usage
+923,94652,Make YouTube select lower quality thumbnails
+924,94618,Add SMA Manager Integration
+925,94597,Fix glances raid plugin data
+926,94537,Migrate homekit_controller entity naming to new standards
+927,94533,Fix ephember
+928,94498,Group LIFX integrations under LIFX brand
+929,94438,Add Miraie AC integration
+930,94415,Add name and default name to device info of APCUPSD sensors
+931,94401,Add support for services to return data
+932,94394,Config flow for the Flux integration
+933,94384,Ezviz code cleanup
+934,94174,Keep last known value if no sensordata from airthings-ble
+935,94170,Add entity translations for Acmeda
+936,94142,Bump noaa-coops to 0.3.2
+937,94099,Add diagnostics to Roborock
+938,94074,OpenHardwareMonitor ConfigFlow
+939,94057,Add YoLink Speaker Hub support
+940,94045,New integration OpenThermWeb
+941,93861,Add disk await entity to systemmonitor
+942,93837,Add OVOS/Neon Voice Assistants integration
+943,93827,Add HTTPS option to philips_js integration
+944,93782,Add daikin zone temperature control
+945,93733,Add support for hourly forecasts in Open Meteo
+946,93720,Add coordinator to dwd_weather_warnings
+947,93662,Update beewi integration
+948,93648,Add Water Heater to Google Assistant integration
+949,93636,Add more information to Roborock Status
+950,93626,Add jsonlog component for dedicated JSON-formatted log file
+951,93604,Add Owlet integration
+952,93580,Add Trello integration
+953,93564,Use entity attributes in Obihai sensor
+954,93526,Add config flow to Hydrawise
+955,93515,Improve Airzone climate code
+956,93506,Update certifi to >=2022.12.07
+957,93404,Add reload support to intent_script
+958,93320,Add config_flow for Time & Date integration
+959,93313,Add freebox LCD brightness amount field
+960,93301,ZHA cover tilt
+961,93298,Add jitter and loss measurements to iperf3 integration
+962,93296,Correctly order moonphase in attribute 'options'
+963,93290,Bump progettihwsw to 0.1.3
+964,93289,Add Tuya Smart Water Timer
+965,93199,Constrain urllib3 to < 2
+966,93166,Fix tasmota sensors push updates
+967,93155,Plugwise add value_fn for select
+968,93135,Add IAQ sensor device class
+969,93088,Bump Plugwise to 0.31.3 adding fixtures and further preparing for typing
+970,93025,Snapcast cleanup
+971,93021,"WebOsTV: new fields and used them in ""webostv.media_player"" when watching ""Live TV"" channels"
+972,93002,Add config flow to Netgear LTE
+973,93001,Pid controller
+974,92997,Fix NWS error with no observation
+975,92874,Add unique id to entities for envisalink integration
+976,92809,Remove unused strings.json entry from starlink
+977,92777,Allow dots as translation key separators in hassfest
+978,92773,Ensure device_info is initialized for SamsungTV
+979,92771,Add Switch to Anova
+980,92742,"Improve IoTaWatt refresh rate, Change hard-coded times to single variable, fix missing sensor data"
+981,92717,Update progettihwsw library to 0.1.3 https://pypi.org/project/ProgettiHWSW/0.1.3/#history
+982,92668,Bump ProgettiHWSW to 0.1.3
+983,92636,Update permitted SensorStateClass for Monetary sensors
+984,92632,Add config flow to Netgear LTE
+985,92561,Update names garage entities to be consistent
+986,92536,Update holidays to 0.26
+987,92417,Feat add tuya A_32A_1L EV charger
+988,92414,Feat: add support for EV charger Product: A_32A_1L monopahse charger
+989,92397,Add smartenergy_awattar integration
+990,92361,Make temperature sensor value displayed in Google Home
+991,92331,Fortios device tracker updates
+992,92309,Add password authentication to Roborock
+993,92305,Add a DataUpdateCoordinator to Hydrawise.
+994,92275,Refactor some zwave code and add test coverage
+995,92220,Modify authorization message instructions for ecobee devices
+996,92196,Add Freebox Home binary sensors
+997,92171,"Add Enocean 1BS/D5-00-01 ""WindowSensor"" Device"
+998,92106,Add humidity to forecast figures of Openweathermap
+999,92092,Bump py-synologydsm-api to 2.3.0
+1000,92091,Improve Transmission entity naming
+1001,92039,Add YAML reload service for Alert integration
+1002,92018,Add roomba combo support
+1003,91927,Multiple A-records
+1004,91923,"Add pause,resume,stop button for HomeConnect"
+1005,91903,Add samsungtv.turn_off trigger
+1006,91837,Add 'Last update' timestamp attributes for timed HomeWizard sensors
+1007,91826,Add PJLink device info
+1008,91763,Improve exception logging for SMTP Notify
+1009,91744,Fix lingering timer in wled
+1010,91742,Change the TASMOTA default fan speed when toggling on
+1011,91735,Add stop programm as service for Home Connect
+1012,91601,Add config flow to Lastfm
+1013,91600,Add support for Ring Intercom
+1014,91582,Add Connector integration
+1015,91579,Add wyoming integration with stt
+1016,91571,Add service set_preset_mode_with_end_datetime in Netatmo integration
+1017,91521,Use language util in stt/tts
+1018,91511,Add entity name translations to Buienradar
+1019,91455,Update readme file
+1020,91425,Update pysiaalarm to 3.1.0
+1021,91349,Add Contact Energy NZ integration
+1022,91248,Add entity name translations to bmw_connected_drive
+1023,91194,Add romy vacuum core integration
+1024,91167,Request steam online friends from batches
+1025,91156,Pass trigger_variables when rendering time_delta in template trigger
+1026,91141,Fix iotawatt unique_id
+1027,91000,Kodi binary sensor entities for screensaver and DPMS information
+1028,90967,Add arming/disarming state to Concord232
+1029,90921,Fix flaky test in vesync
+1030,90917,Fix lingering timers in mailbox
+1031,90875,Add new integration KAT Bulgaria
+1032,90860,Add config flow to Plant
+1033,90786,Add support for Supla lights
+1034,90741,SharkIQ Hotfix - Handle current installations by using default REGION
+1035,90723,Support DIMMER and RGBLIGHTING Supla channels
+1036,90716,Set correct livisi climate HVAC state
+1037,90707,Add entity name translations to AVM Fritz!SmartHome
+1038,90583,Provide ViCare diagnostics tests
+1039,90521,Add charging modes and profiles to bmw_connected_drive
+1040,90513,Solvis remote support
+1041,90509,Resolve gtfs tz issues and adding humidity to forecast of openweathermap
+1042,90506,Add swiss_public_transport polling count
+1043,90501,Add control4 room based media player
+1044,90455,Add support for humidifiers to VeSync
+1045,90454,Add more graceful handling of JSONDecode errors
+1046,90449,Be able to specify port for Sonarr
+1047,90371,Refactor API Call and API Parse in Proxmox VE
+1048,90347,Multi-device support for vicare
+1049,90336,Update API URL in Start.ca Integration
+1050,90283,"Add ""volume_step"" parameter to media_player.volume_up/volume_down"
+1051,90275,Fix Solax updating disabled sensors
+1052,90254,Add encoding configuration setting to REST and Scape
+1053,90170,Add host discovery to niko home control
+1054,90153,"Add ""stream"" to default_config"
+1055,90112,Add Tado presence sensor to Tado home entity
+1056,90095,Add support for solvis heating via solvis remote sc2_val.xml
+1057,90064,Add new service to OpenTherm Gateway integration
+1058,90026,Handle missing switch information in ezviz data
+1059,90006,Add Flexit bacnet integration
+1060,90004,Add TTS to pipelines
+1061,90001,Fix octoprint down every two minutes
+1062,89984,"Add ""last"" condition for current power consumption"
+1063,89934,Add media search
+1064,89917,Add rest switch template resource
+1065,89915,Improve Doods
+1066,89800,Add service to update digital ocean DNS records
+1067,89775,Workday updates for config flow and YAML import
+1068,89730,Data Update coordinator for iZone
+1069,89642,Use test parametrize in SFR tests
+1070,89625,Reolink add URL option
+1071,89588,Consistently capitalize Tibber sensor names
+1072,89579,Better manage connection errors in iZone
+1073,89567,Bump aiopulse to 0.4.4
+1074,89548,Add Vattenfall InCharge integration
+1075,89547,Add availability to SQL sensor
+1076,89541,Add window open mode for fritz climate
+1077,89504,Add iNELS integration
+1078,89460,Fix issues with swisscom router integration
+1079,89383,Fix missing debouncer cancel in update coordinator
+1080,89348,Envisalink Config Flow Support
+1081,89328,Klyqa new integration
+1082,89314,Add majestic virtual integration for Intellifire
+1083,89313,Add heatnglo virtual integration for Intellifire
+1084,89312,Add heatilator virtual integration for Intellifire
+1085,89304,Initial commit for official ooler version.
+1086,89267,Increase logging level for Netatmo API connection issues
+1087,89258,Send button events for Livisi devices
+1088,89257,Add reauthentication support to Jellyfin
+1089,89243,Fix zwave_js failing to download diagnostics
+1090,89223,Add suggested_values to config flow scaffold
+1091,89216,Add OTBR option flow
+1092,89215,Add sensor language option to sma integration
+1093,89204,Update flo config_flow
+1094,89182,Fix integration not working anymore due to a change in the suez portal
+1095,89181,Add ability to disable/snooze alert notifications
+1096,89121,Obihai code cleanup
+1097,89113,Allow device type WasherDryer for home_connect component
+1098,88941,Implement humidifier support in VeSync
+1099,88886,"Add support for Livisi PSSO, ISS and ISS2 switch devices"
+1100,88871,Google Assistant SDK: allow credentials from json to allow personal results
+1101,88865,Add forecast attribute to AirNow
+1102,88812,Add Xiaomi Miio deerma.humidifier.jsq2w
+1103,88795,Add real as ads sensor type
+1104,88737,Add cloud support to IntelliFire Integration
+1105,88709,Add Sleep Timer control to IntelliFire Integration
+1106,88676,Add virtual integrations for intellifire compatible fireplaces
+1107,88635,Catch CancelledError when setting up components
+1108,88578,Use title case for Transmission status sensor (#88578
+1109,88576,Add PAX BLE integration
+1110,88575,Jinja templating improvements
+1111,88540,Intellidrive reisinger
+1112,88530,Google Assistant SDK: allow users to have a separate custom integration for HTML parsing
+1113,88489,Add clarifying comment about unit of elevation
+1114,88422,Add session energy sensor and fix key of energy_wh for tesla_wall_connector
+1115,88399,ONVIF device triggers and homeassistant event
+1116,88318,Remove smartthings cooling setpoint requirement for thermostats
+1117,88276,Fix 500 error when getting calendar events
+1118,88072,Fix MQTT double topic subscribtion
+1119,88040,Whirlpool disable detergent level by default
+1120,88015,Update locationsharinglib version to 4.1.8
+1121,87968,Add sensors supported by Awair Element local api
+1122,87930,Skip refresh of Speedtest sensors if disabled in system options
+1123,87927,"Create a ""schedule"" entity"
+1124,87915,Add ConfigFlow for SPC
+1125,87910,"Provide light actions [flash, brightness_increase, brightness_decrease] also as a service"
+1126,87863,Update and enhance trend sensor
+1127,87856,Add climate Tuya Power command instead of switch - Airton climate
+1128,87774,Add V2C integration
+1129,87750,Add basic support for IPv6 on Route53 Component
+1130,87748,Add Southern company integration
+1131,87717,Add more bitwise operations as template helpers
+1132,87672,Add Inches of Water Column as a unit of pressure
+1133,87666,Add preset temperatures to generic thermostat attributes
+1134,87665,Extend energyzero sensors to use data of tomorrow
+1135,87567,Fix entur_public_transport API Ratelimit
+1136,87544,Bypass validation empty code for lock
+1137,87508,Add water heater manual state
+1138,87486,Add bypass_zone service for totalconnect
+1139,87393,Introduce entity descriptions for OpenTherm entities
+1140,87370,Add more sensors to the RYM Pro integration
+1141,87366,Add color support to matter lights
+1142,87249,added device_class for API_VOC
+1143,87222,Allow workday binary_sensor to be configured without a country.
+1144,87139,Add Water device class to Overkiz
+1145,87107,Downloader with additional timeout attribute
+1146,87093,Add Swiss public transport departure time state attribute
+1147,87067,Bump pydaikin 2.9.0
+1148,87015,Fix Matter bridge devices
+1149,86930,Add Imazu Wall Pad
+1150,86923,Add SWS12500 Weather Station integration
+1151,86841,Ignore empty payloads from DSMR Reader
+1152,86840,Emoncms cleanup
+1153,86834,Assign unique ID to iotawatt outputs
+1154,86756,Add config flow to Torque
+1155,86717,Add reauthentication support for LIVISI integration
+1156,86639,Deprecate min_max integration
+1157,86636,Add Support for Luxtronik2 heatpumps
+1158,86556,Only update deCONZ config from HASSIO addon if integration is not running
+1159,86521,Manage LL-HLS fragmenting when audio is present
+1160,86395,Bump airthings-ble to 0.5.5
+1161,86386,Add support for externally connected utility devices in HomeWizard
+1162,86281,Add config.update_entity and config.remove_entity services
+1163,86265,Fix SNMP TypeError
+1164,86241,Add Tuya Dehumidifier Product Category cs
+1165,86238,Allow number entities to alexa
+1166,86225,Fix exception in home_connect.light
+1167,86156,Add config flow to DuckDNS
+1168,86120,Add config flow to Hikvision
+1169,86093,Add config flow to Melissa
+1170,86086,Add state attributes for lock component
+1171,86084,Add Asus Router integration
+1172,86076,Cast enum sensor value to str to compare options
+1173,86067,Fixed pl translation hysteresis in threshold
+1174,86060,"Add ""ip_version"" configuration option for Wake on lan"
+1175,85978,Create tests from ads covers
+1176,85977,Add iNELS integration
+1177,85964,Add ppb to allowed VOC values
+1178,85947,Adds 4 test cases
+1179,85939,"modbus sensor: support float, add min_value; slave: support unique_id…"
+1180,85896,Add config flow to Systemmonitor
+1181,85893,Add Sunsynk Integration
+1182,85782,Bump gassist-text to 0.0.10
+1183,85647,Add more Coffee Maker Programs to Home Connect
+1184,85601,Add extra sensors by adding support to the extended ESIOS API with API Token
+1185,85570,Reolink check for admin
+1186,85518,Bump  prayer-times-calculator to 0.0.8
+1187,85389,Feature/shopping list entity
+1188,85349,Add mikrotik routerboard and chr
+1189,85327,Add support for extractor hood tuya device (device type yyj)
+1190,85314,Add config flow to Hydrawise
+1191,85196,Update mqtt const
+1192,85189,Add radiation units
+1193,85174,Added get_location
+1194,85146,Renovate IQVIA config flow tests
+1195,85140,Renovate WattTime config flow tests
+1196,85125,Add event(s) for failed login and IP ban
+1197,85100,Add option to use ssl in Transmission
+1198,85082,Add humidity sensor to TEMPer USB devices
+1199,85029,Add new 2N Telekomunikace integration
+1200,84998,Add support for enocean shutter contacts (EEP D5-00-01)
+1201,84951,Homely
+1202,84876,Zeversolar integration
+1203,84869,Initial setup for Sunbeam Dual Zone Heated Bedding
+1204,84851,Add Whirlpool washer and dryer to Whirlpool integration
+1205,84790,Add Dobson Units as a valid concentration unit for atmospheric ozone
+1206,84757,Add yolink flexfob remote support
+1207,84673,Add support for SwitchBot Lock
+1208,84610,Add Config Flow to the Nextcloud Integration
+1209,84602,"Add Trydan integration, first try."
+1210,84573,Add custom ssl_context to aiohttp helper
+1211,84519,Fix HAA homekit integration
+1212,84496,Add µm to Length units
+1213,84482,Fix Scrape config flow to allow removal of values once set
+1214,84443,Seitron integration
+1215,84282,Fix alarm_control_panel representing triggers and conditions based on supported features
+1216,84272,Fix missing keys handling in hive device data
+1217,84227,Add a calendar entity to Sonarr
+1218,84212,Update dsmr_reader sensor definitions
+1219,84204,Create ability to add PurpleAir sensor by ID/index
+1220,84168,Update ConnectSense Energy Sensor State Class
+1221,84163,Add GA workflow to test setup script
+1222,84158,Fix Cocoa dependency conflict in venv setup
+1223,84094,Fix tuya camera stream
+1224,84025,Add support for VeSync Humidifiers
+1225,84005,"Add Tuya Irrigation, Category: GGQ"
+1226,83965,Add config flow to Generic Hygrostat
+1227,83938,Refactor withings descriptions to use device classes
+1228,83561,New Integration: Honeygain
+1229,83484,Add config flow to Roth Touchline
+1230,83459,Handle Twinkly devices without movies
+1231,83456,Add @nyroDev to overkiz codeowner
+1232,83430,Create a new Update entity for Overkiz
+1233,83278,Bump velbus-aio to 2022.12.0
+1234,83252,Add lastfm scrobble service
+1235,83247,Add bouncie integration
+1236,83204,Add Twinkly diagnostics
+1237,83173,Improve type hints in nws
+1238,83117,Reload HomeWizard when new firmware is detected
+1239,83079,Add integration with OVH's DynHost
+1240,83069,Add Rointe integration
+1241,83056,Bump the modbus integration library to V3.0.2
+1242,83035,Add HTTPS support for Fully Kiosk
+1243,83023,Add playlist to effect list
+1244,83018,Fix threshold binary sensor unknown returned value for upper and lower limits
+1245,83016,Use new Kelvin mode of color_temp selector
+1246,82959,Add TED (The Energy Detective) integration
+1247,82958,Fully Kiosk - HTTPS support
+1248,82945,Add extra fields to citybikes provider
+1249,82910,Adds template helpers for generating URLs
+1250,82877,Fix updating brightness from state when color is supported
+1251,82850,Initial Edilkamin stove integration
+1252,82782,Move Min/Max yaml to integration yaml key
+1253,82771,Change MIN_TIME_BETWEEN_UPDATES to 2 seconds for apcupsd.
+1254,82753,Improve the devcontainer
+1255,82697,Add more Tuya Thermostat state entities
+1256,82659,Add livisi window sensor
+1257,82622,Add YoLink MultiOutlet support
+1258,82539,Add support for market holidays to workday sensor
+1259,82533,Add extra attibutes to Tuya climate entity
+1260,82499,Add support for air purifier devices in HomeKit
+1261,82486,Add Enocean contact sensor
+1262,82468,Add unit of measurement to Tuya air measurements
+1263,82419,Make Kegtron sensor keys tuples
+1264,82391,Add integration for Kostal Piko solar inverters
+1265,82368,Align manual_mqtt alarm control panel with manual
+1266,82332,edl21: make scan interval configurable
+1267,82285,Add signal_messenger_jsonrpc notification
+1268,82280,Add unique_id to envisalink binary_sensor
+1269,82221,Update Tibber setup_entry flow
+1270,82132,Verify comfoconnect connection with bridge
+1271,81972,New Heatzy component
+1272,81970,Add yolink Dimmer support
+1273,81957,Growatt - Temporary workaround for #81951
+1274,81832,Support hvac mode HEAT_COOL in Homekit Controller
+1275,81807,Log better error when sending non-critical message to screensaver'd LaMetric
+1276,81795,Improve (test) requirements generation
+1277,81755,Add HTTP API to get camera stream source
+1278,81724,Add Combined Energy integration
+1279,81701,Add fan support for lyric
+1280,81662,Add unique_id to SNMP switch platform
+1281,81625,Update lutron_caseta buttons to use keypad data
+1282,81599,Allow iBeacon without name
+1283,81381,Fix Tuya climate entities requiring both Celsius and Fahrenheit to show climate data
+1284,81377,Add unique_id to Ping sensor
+1285,81371,Add power commands to SystemBridge
+1286,81325,Add sleep and wakeup to foscam as switch
+1287,81224,Refactor Command line switch to inherit TemplateEntity
+1288,81223,TP-Link Omada integration
+1289,81167,Add Epic Games Store integration
+1290,81067,Bump pyswitchbee to 1.6.1
+1291,80776,Konnected test coverage
+1292,80774,Add nextcloud config flow
+1293,80772,Verisure
+1294,80744,Add action callbacks to simplepush
+1295,80719,Add core mediaplayer grouping to bluesound
+1296,80717,Add support for Tuya eco climate
+1297,80617,Use PRECIPITATION units in integrations
+1298,80600,Allow integrations to specify unit_of_measurement used for the sensor state
+1299,80553,Google-Assistant: Fix current temp is none
+1300,80485,Add days_remaining attribute
+1301,80477,Remove troublesome out of date translated strings for life360
+1302,80429,Expose annotation option for camera snapshot
+1303,80424,Add more PrusaLink sensors
+1304,80373,Windows IIS Reverse Proxy IPv6 Support
+1305,80358,Addition of a schedule configure service
+1306,80346,Landis+Gyr T550 support by adding MWh-reading
+1307,80330,Add Sonoff to brands
+1308,80329,"Add ""verisure"", ""zha"", and ""zwave"" to Yale brand"
+1309,80326,Add formula_one integration
+1310,80316,Bump pyTibber to 0.25.4
+1311,80293,Add Sonos brand
+1312,80283,Add OralB integration
+1313,80135,Replace atome by keyatome 7.4.0
+1314,80060,Add Adguard Home list_type to add/remove url services
+1315,80059,Add parameters for minimum brightness on light integration
+1316,80045,Add Vicare switch to allow disabling the onetimecharge
+1317,80007,Imap email content decode base64 encoded body
+1318,79973,Add an RSSI sensor to the LIFX integration
+1319,79944,Add GPS support to dwd_weather_warnings
+1320,79920,"Allow specifying custom IP ""resolver"" for Route53."
+1321,79896,Home Connect: Operation state translations
+1322,79879,Bayesian - support unique_id:
+1323,79877,Add unique_id to Broadlink IR switch
+1324,79853,Note SoyeaLink support in Huawei LTE comments
+1325,79817,Add IKEA to brands
+1326,79792,Use a unique cache folder per Velbus config entry
+1327,79632,"Bump PySwitchbot, Add contact sensor button count"
+1328,79580,Add support for UK units in VolumeConverter
+1329,79572,"Fitbit: Create a device for the Fitbit user, to group Fitbit sensors and generate nicer names and entity IDs"
+1330,79564,Handle numbers just like sensors in prometheus
+1331,79495,Convert network mode from sensor to select for huawei_lte
+1332,79488,Device condition camera
+1333,79455,Add support for the Flame and Morph effects for Tile and Candle
+1334,79398,Add Sum helper
+1335,79329,Add volvo on call device_info to group entities in one device per vehicle
+1336,79324,Implement sync time button for moehlenhoff_alpha2
+1337,79233,Update huisbaasje-client 0.1.0 to energyflip-client 0.2.0
+1338,79187,Add missing entity name
+1339,79149,Add Edit Sheet service to Google Sheets
+1340,79108,Enocean window door contact
+1341,79055,Tuya smart water timer
+1342,78986,FIX Incorrect TAG
+1343,78982,"Extend Tuya Support: Doorbells, Air Purifiers, Light"
+1344,78899,"Increase interval to 30min, add interval to OptionsFlow"
+1345,78839,Add HaFAS integration
+1346,78778,Add config options support in volvooncall
+1347,78740,Change attribute bluesound_group to be entity_ids
+1348,78725,Fix issue that HomeKit_Controller/HeaterCooler won't turn on
+1349,78686,Light reload service
+1350,78665,Add Overkiz AtlanticPassAPCDHW
+1351,78659,Add Overkiz AtlanticPassAPCHeatingAndCoolingZone
+1352,78657,Add hourly forecast to SMHI
+1353,78647,Add IMAP SSL configuration option
+1354,78633,Add brightness functions to services.yaml
+1355,78614,Add extra_rooms option to mqtt_rooms
+1356,78601,Klyqa smart devices integration
+1357,78594,Allow srp_energy to have multiple configs
+1358,78579,Add new MAC address mask to Broadlink for DHCP discovery
+1359,78561,Fix Flume devices with missing location
+1360,78549,Change blinkstick requirement
+1361,78528,Add EnOcean binary_sensor STM 250 magnet contact support
+1362,78423,Disentangle state and config in water heater
+1363,78370,Caldav ssl mutual auth
+1364,78332,Retry on unavailable IPMA api
+1365,78326,Add horizon to forecast.solar integration
+1366,78231,Update daikin sensors
+1367,78192,Fix media_player Toggle when in idle
+1368,78065,Add set chime duration service to unifiprotect
+1369,77954,Move twilio to config flow completely
+1370,77794,Fix shopping_list service calls not notifying event bus
+1371,77765,Add filesystem free sensor and fix unit conversion for System Bridge
+1372,77737,Add climate group
+1373,77736,Workaround for Tuya BHT-002 thermostat family
+1374,77622,Update requirements_all.txt
+1375,77527,Configurable delay when setting up Risco local
+1376,77518,Reuse the MQTT client not disrupting manual items during reload
+1377,77381,Add support for Hatch Rest noise machine and light
+1378,77374,Add configurable update interval to OpenWeather
+1379,77316,Fix typo error in MQTT english translation
+1380,77315,Add alarmed binary sensor to Risco integration
+1381,77258,Improve automations and scripts error logging
+1382,77249,Add inels integration
+1383,77217,Update forecast.solar sensor values exactly when reported API values change
+1384,77188,MPRIS Linux HTPC/desktop/laptop media player remote control
+1385,77146,REST binary sensor enable attributes and XML data
+1386,77112,Add config/sensor for Tuya GYD cat-Motion Light
+1387,77103,Bump Tank Utility Version
+1388,77079,Add Stream & Thumb feature to Telegram send_video
+1389,77064,Add Xiaomi Airpurifier 4 Lite support
+1390,77055,Add new integration mhtzn
+1391,77048,Add lastCommand attribute
+1392,77044,ZHA backup/restore config flow
+1393,76925,Parent grid option for individual device and per device cost calculation
+1394,76890,Add repair to suggest using Awair local integration
+1395,76761,Add test for Jellyfin media source
+1396,76756,Add Tami4 Integration
+1397,76749,Update tts.py to support Dutch (Belgian accent)
+1398,76706,Expose extra PJLink data as state attributes
+1399,76696,Fix polling interval bug in Overkiz integration
+1400,76597,Add sqlalchemy and fnvhash to requirements
+1401,76503,Fix Tuya dimmers not dimming
+1402,76463,Support enocean teach in
+1403,76332,Bump pyipma to 3.0.2
+1404,76308,default_config: only load bluetooth on bleak supported platforms
+1405,76304,Add aqara binary sensor feature
+1406,76295,"Remove deprecated airQuality, add binary_sensor platform"
+1407,76289,Add config flow to local_file
+1408,76259,Bump schiene to 0.24
+1409,76246,Add HomeWizard repair item when API is disabled
+1410,76190,Add Aqara
+1411,76170,Add issue to repairs for removed Skybell YAML configuration
+1412,76145,Add config flow to PJLink
+1413,76140,Add repair issue for deprecated Guardian services
+1414,76123,Ble sensor & Bump AIOAladdinConnect to 0.1.41
+1415,76088,Add optional timeout config to pjlink
+1416,76027,Add update entity to mikrotik
+1417,75950,Fix capitalization in mitemp_bt strings
+1418,75944,Add typings to OVO Energy integration
+1419,75905,"Bump plugwise to v0.21.2, add related new features"
+1420,75867,Fix HaveIBeenPwned integration
+1421,75766,Provide 'entities' variable for service call templates
+1422,75681,Add lawn_mower entity
+1423,75680,Allow fints config as fallback for account type
+1424,75620,Add ability to define source interface to wake_on_lan
+1425,75585,Add Sutro integration
+1426,75548,improvements to USCIS sensor
+1427,75458,Modify IQVIA to store a single dataclass in hass.data
+1428,75420,IQVIA's Prediction Sensors don't have state_class
+1429,75412,Enable Wemo option for subscriptions across subnets
+1430,75356,Add support for EnOcean cover (roller shutters based on EEP D2-05-00)
+1431,75345,Update Dockerfile.dev to Python 3.10
+1432,75282,Modify SSL @SECLEVEL=1 for Bbox
+1433,75251,Add Status and Configuration Entities for Tuya Smart Locks
+1434,75247,Add config flow to Proxmox VE
+1435,75246,Add presets to Advantage Air climate entities
+1436,75230,Frontend Bump 20220707.1
+1437,75150,Add core integration mhtzn
+1438,75130,Add helper to get ConfigEntry from a ServiceCall
+1439,75128,Add tuya pir motion sensitivity select
+1440,75127,Migrate AccuWeather to new entity naming style
+1441,75115,Replace a custom service with Number platform in Advantage Air
+1442,75083,Change comed_hourly_pricing sensor unit
+1443,75068,Upgrade volvooncall to v0.10.1 and support new usa_units configuration option
+1444,74893,Add Pylontech integration
+1445,74757,Bump atomicwrites dependency to fix #74751
+1446,74699,Add Unique IDs to Satel Integra
+1447,74690,Add update coordinator for google calendar
+1448,74641,Add missing strings for here_travel_time
+1449,74508,Fix invalid enocean unique_id
+1450,74486,Allow to turn on Python debugger in the container
+1451,74478,"Update iAqualink to handle the new ""absent"" response from API"
+1452,74438,Add device info and long term statistics to transmission
+1453,74427,Remove lutron_caseta from mypy ignore list
+1454,74361,Use less strict certificate checking for ComEd
+1455,74331,ci: Add GitHub token permissions for workflows
+1456,74082,Add additional attributes to tank_utility sensors
+1457,74045,Add AirQualityEntity to pylint checks
+1458,74025,Add additional attributes to UniFi devices
+1459,73956,Add config flow to smtp
+1460,73940,Update VS Code devcontainer configuration
+1461,73911,Implemented RestoreEntity for Dynalite
+1462,73877,Add Proxmox VE current memory usage sensor
+1463,73865,Round electric current value of Fritz!DECT smart plugs
+1464,73782,Add state class to UPnP sensors
+1465,73693,Account for DD in time_period_str
+1466,73672,Specify device_class and state_class on OpenEVSE sensors
+1467,73251,Add retry package to deal with timeouts
+1468,73228,Explicitly generate an _external_ webhook URL for Withings integration
+1469,73187,Support SSL and toggling SSL certificate verification in ubus device_tracker
+1470,73100,Update Waze Travel Time to 0.15
+1471,73082,Add config flow to Caldav
+1472,73043,Netatmo refactor to use pyatmo 7.0.1
+1473,72987,Update meraki for api version 2.1
+1474,72982,New integration: Poolstation
+1475,72730,Smart radio browser
+1476,72715,Fix SmartThings issue with unique_id
+1477,72674,Add Huum integration
+1478,72608,Defer google calendar integration reload to a task to avoid races of reload during setup
+1479,72541,Add cloud as dependency for application_credentials
+1480,72450,Update Plugwise climate
+1481,72308,Set here_travel_time quality scale to gold
+1482,72294,Fix telegram bot from_first/last in callback_query event
+1483,72202,Add partial support for Tuya Power Clamp
+1484,72198,Adjust device_automation type hints in kodi
+1485,72160,Fix zone trigger (zone->zone)
+1486,72145,Add support for vesync multicolor light bulb
+1487,72045,bugfix for circular imports issue
+1488,71978,Correct unit of measurement for Synology DSM volume sensors
+1489,71922,Intent script
+1490,71920,Amazon polly
+1491,71867,Use recorder db_url to determine default database for sql
+1492,71764,Add remaining tests for Sensibo
+1493,71612,"Warn user if ""model"" key is missing from Shelly firmware"
+1494,71534,Add Aqara integration
+1495,71526,Add Sungrow solar inverter integration
+1496,71523,New integration for IDS Hyyp Alarms
+1497,71485,Save jellyfin client id on configuration
+1498,71264,Add currently playing track's context to Spotify's state attributes
+1499,71257,Rename remote_rpi_gpio pins config item and add port config item
+1500,71117,Fix warning to upgrade pip in bootstrap script
+1501,70982,Translation update
+1502,70980,Add QNAP QSW Button platform
+1503,70444,Add slimproto integration (Squeezebox players)
+1504,70295,Add binary sensors to generic camera
+1505,70261,Update 17track integration to use v1 API
+1506,70191,Fix too short timeout on skybell binary sensors
+1507,70150,Do not update successful set up Synology DSM config entry via SSDP
+1508,69806,BMW Connected Drive: Notify listeners after button execution
+1509,69804,Provide NINA warnings also in one sensor
+1510,69710,Provide statistics device_class based on source entity and characteristic
+1511,69555,Reisingerbridge
+1512,69378,Generic fix stream thumbnail
+1513,69317,update pyvesync
+1514,69303,Add unique id to RFLink entities
+1515,69188,Add Tuya Smart Water Timer
+1516,69166,Fix tomorrowio sensor units and conversions
+1517,69006,iCloud: remove deprecated YAML import
+1518,68991,Add AUTO_UPDATE to UpdateEntityFeature
+1519,68979,Update services.yaml
+1520,68968,Switch to gender neutral terms
+1521,68962,Skip tests if pip-check fails
+1522,68945,Update device_trigger.py
+1523,68913,Don't close aiohttp session in Overkiz config flow
+1524,68838,Add event_group_reloaded
+1525,68830,Add zwave_js MultilevelSwitch Notification
+1526,68749,Add update entities to PI-Hole
+1527,68714,Add Philips air purifier integration
+1528,68700,Implement config flow for SQL integration
+1529,68664,Add update entity to Synology DSM
+1530,68526,Add PubliBike integration
+1531,68478,Updated blinkpy version from 0.18.0 to 0.19.0
+1532,68405,Fix migration on Postgres by removing INTEGER length
+1533,68342,Fix linksys_smart check for active devices
+1534,68222,Environment Canada bump lib version and disable AQHI
+1535,68070,Decora wifi fan support
+1536,68020,Add diagnostics to stream's Stream objects
+1537,67887,Yolink Integration
+1538,67877,Add service for adding products to a Picnic order
+1539,67856,Add alarm_control_panel platform to bosch_shc integration
+1540,67782,Add strict typing to advantage air
+1541,67754,Add scan_interval config variable to miflora
+1542,67717,Add zeroconf discovery for MPD
+1543,67713,Add support for setting user status in slack
+1544,67709,Add config flow to maxcube
+1545,67703,Add kdeconnect integration
+1546,67668,Implement config flow for  filesize
+1547,67384,Add unique_id to Fritz diagnostics
+1548,67379,Add aurora_abb_powerone tcp support
+1549,67358,Add jvc projectors
+1550,67352,Changed ISY994 FanLinc to use preset speed names
+1551,67328,Fix econet typos and make one comment more descriptive
+1552,67296,econet: Don't require all-lowercase operation mode in set_operation_mode
+1553,67263,Add tests for LCN sensor and binary_sensor platforms
+1554,67123,Fan group presets
+1555,67068,Add warnings sorting to dwd_weather_warnings
+1556,66970,Add GitHub commit status on latest commit sensor
+1557,66920,Add peer device sensors for syncthing
+1558,66914,Add Work Item Sensors for Azure DevOps
+1559,66911,Add Sony Songpal group and ungroup services
+1560,66856,Fix typo in const.py
+1561,66755,Add support for joaoapps_join notification categories
+1562,66753,Add config flow to edl21
+1563,66567,Fix tuya climate temperature
+1564,66489,Try fix error for pr
+1565,66431,Rki covid
+1566,66336,Modernize Sleepiq and add new entities
+1567,66324,Move configuration for tcp under the integration domain key
+1568,66208,Add ovo_energy account number option
+1569,66110,Add duration support for streaming in mpd
+1570,66027,Add support for dmaker.airfresh.a1 and dmaker.airfresh.t2017
+1571,65900,Add statistics capabilities to hp_ilo integration
+1572,65897,Update proxmox integration to support auto discovery
+1573,65847,Add Humidifier support to zwave_js
+1574,65743,Add state_translated function to jinja templates
+1575,65561,Add expert_mode to modbus sensors
+1576,65395,Add register_size to modbus
+1577,65384,Add template filter default_na: Default Not Assigned Filter
+1578,65295,Allow HomeWizard devices with disabled api to show up in discovery
+1579,65282,Complementing the Tuya Dehumidifier (cs) category
+1580,65279,Add New Unmanic Integration
+1581,65262,Add full test coverage to Jellyfin
+1582,65254,Handle missing attrs in whois results
+1583,65197,Add state classes to AdGuard Home sensors
+1584,65144,Update notify_events component with a new feature (Actions)
+1585,65049,Add remaining Tuya countdown sensor
+1586,65000,Huawei Solar Integration
+1587,64952,Add unifi cleanup service
+1588,64945,"Add ""jsonport"" to Homematic Host-Configuration"
+1589,64880,Create a new NWS Alerts integration
+1590,64865,Fix Samsung TV state when the device is turned off
+1591,64809,Refactor apcupsd to use config flow
+1592,64803,Add dynamic icon update for volume entities
+1593,64790,Use component-level import in IQVIA tests
+1594,64755,Add config option to iotawatt for scan_interval
+1595,64689,Add EntityDescription to fibaro part I
+1596,64680,"Update nest integration, fully config flow driven"
+1597,64668,Tuya - FSD Fans - Added Fan Speed Control
+1598,64614,Supply battery attribute for Max device
+1599,64611,Use __all__ to re-export config validation
+1600,64600,Add IntelliFire sensors
+1601,64551,Add more vicare gas sensors
+1602,64360,Fix MotionEye config flow
+1603,64281,Add missing PRECIPITATION_MILLIMETERS in homeassistant.const
+1604,64249,spelling: components/ephember
+1605,64224,Spelling
+1606,64194,Add new CURRENT_HVAC constants
+1607,64170,Netgear try all ports
+1608,64127,CI improvements
+1609,64072,Add test cases for Tradfri cover platform
+1610,63997,Improve typing of Withings
+1611,63930,Bump pyvlx to 0.2.20
+1612,63824,Cleans up various asserts/type ignores for UniFi Protect
+1613,63818,"Deprecate ""wanted"" sensor in radarr"
+1614,63775,Change greeneye_monitor data to be a dictionary
+1615,63740,Use SensorEntityDescription in fibaro
+1616,63736,Add vartastorage integration
+1617,63678,Bump rflink to 0.0.61
+1618,63671,New integration for Invoxia™ GPS Trackers
+1619,63629,Add support for light distribution control
+1620,63619,"Autogenerate unique IDs for sensors, binary_sensors, switches and camera in android_webcam_integration"
+1621,63585,s
+1622,63528,Add config flow to the Matrix integration
+1623,63499,Use Platform enum [google]
+1624,63496,Use Platform enum [alexa]
+1625,63495,Use Platform enum [a]
+1626,63396,Add configuration_url for BleBox
+1627,63381,Add support for logging in with access token in Matrix integration
+1628,63350,"Cleanup nest auth registration, moving out of __init__.py"
+1629,63281,Vera scene exclude
+1630,63252,Initial implementation of EnaSolar integration
+1631,63246,Add unique IDs for dsmr_reader sensors
+1632,63205,Add keyboard_remote integration tests
+1633,63155,Add Remootio integration
+1634,63147,Allow InfluxDB raw queries
+1635,63116,Add default_transition option to LIFX integration
+1636,63096,"Add Nightscout entities for devices batteries (collectors, phones, etc)"
+1637,62916,Add select entity to Overkiz integration
+1638,62907,Integrate VeSync humidifiers
+1639,62873,Add switch to wilight
+1640,62847,Add unique id to DHCP step in Config Flow for Overkiz
+1641,62843,Implement config flow dnsip
+1642,62801,AlphaESS Integration
+1643,62764,Starlink integration
+1644,62729,Update Tuya IoT Python SDK version for Tuya Integration
+1645,62674,Fix unsupported tuya atmosphere bulbs
+1646,62563,Use platform enums in remote tests
+1647,62556,Use platform enums in venstar tests
+1648,62554,Use platform enums in vacuum tests
+1649,62552,Use platform enums in unifi tests
+1650,62513,Use new enums in knx tests
+1651,62451,Add Hyundai/Kia Connect integration
+1652,62392,Fix missing modes for Tuya HY368 radiator
+1653,62331,Update pygtfs version to 0.1.7
+1654,62302,Fix missing agent_dvr profile
+1655,62227,Use async_config_entry_first_refresh to load initial Vallox data
+1656,62225,Add type hint to RegistryEntry.entity_category
+1657,61806,Create config flow in aten_pe
+1658,61747,Add synchronous download and authentication support to downloader integration
+1659,61698,Fix input_datetime - expose timezone if date and time are set
+1660,61506,Add device_class to command_line.sensor
+1661,61471,Weather units: Aemet (1.1/4)
+1662,61451,Add unique id attr to generic camera
+1663,61398,Use DataUpdateCoordinator in here_travel_time
+1664,61300,Push Tuya events to message bus
+1665,61241,Remove nonexistent device_class from TOLO Sauna select
+1666,61126,Add new integration with Micropel PLCs
+1667,60992,Add camera pir to tuya
+1668,60961,Change the way the button works and implemented in Tuya Button
+1669,60885,Add more Tuya Vacuum sensors and select entities
+1670,60847,Add config flow to radarr integration
+1671,60839,Add parse_hostname method to ssdp
+1672,60829,Weather units: darksky to ipma (2/4)
+1673,60811,Add more Tuya Vacuum sensors and select entities and send command service
+1674,60520,Add integration for Moonraker 3d printer service
+1675,60506,Add rki-covid integration
+1676,60479,Allow SNMP sensors to be reloaded without HA restart
+1677,60465,Migrate Control4 to WebSockets instead of polling
+1678,60413,Add lektrico integration
+1679,60262,"Add current ""auto"" HVAC action"
+1680,60216,Use native datetime value in Brother uptime sensor
+1681,60209,Add twitch states to helper state_as_number
+1682,60174,Add system entity category to ESPHome
+1683,60088,Support EasyMeter Q3D in dsmr
+1684,60042,Use UsbServiceInfo in modem_callerid
+1685,60039,Set Ecobee precision to halves when displaying Celsius
+1686,59992,Add config flow to Azure Event Hub
+1687,59989,"Add deconz current hvac operation to thermostate based on ""state"""
+1688,59924,Fix error on tuya devices not following strictly specs
+1689,59883,Do not check yeelight state for turn_off
+1690,59871,Import greeneye_monitor config entry from YAML
+1691,59846,Remove -bb option from tests
+1692,59788,Add new integration luxtronik
+1693,59722,Add state_class for Daikin sensors
+1694,59688,Only store not None fan state attributes
+1695,59676,Update tuya cover
+1696,59615,Fix overriding supported features in Fan entity
+1697,59575,Fix HomeKit thermostat HVAC action
+1698,59557,Add Tuya Smart Water Timer
+1699,59518,Add config flow to the Onkyo component and change to local push
+1700,59490,Add timeout to all tradfri API calls
+1701,59445,Bump pysher to 1.0.7
+1702,59395,Add Uptime Kuma Integration
+1703,59390,Add options flow to handle inactive tiles in tile integration
+1704,59381,Update python-ecobee-api to 0.2.14
+1705,59254,Ecobee set local state after successful post
+1706,59194,Expose unifi PoE ports as individual switches
+1707,59191,Add button to litterrobot
+1708,59176,Add system health to devolo Home Network
+1709,59148,Velbus typing part 2
+1710,59144,Add support for Irrigator (ggq) in Tuya
+1711,59092,Use saner native measurement units for xiaomi_miio sensors
+1712,58916,Draft: Support wago 750 with enocean rebase2
+1713,58884,Add authentication provider for Synology DSM users
+1714,58831,Add binary_sensor to venstar to track alerts
+1715,58772,Add media_player.play_media to Frontier Silicon integration
+1716,58771,Add number platform to Advantage Air
+1717,58759,Add scrape icon option
+1718,58734,ADS integration: New config schema according to ADR0007
+1719,58658,Set default friendly_name for mqtt discovery conf
+1720,58570,Use Fahrenheit for Tuya Kettle temperature if TEMP_UNIT_CONVERT is set to 'f'
+1721,58560,Add DHCP Discovery for SimpliSafe
+1722,58556,Add configuration_url to AdGuard integration
+1723,58554,Add srp_energy cost sensor
+1724,58497,Refactor kira test_sensor.py unittest to use pytest
+1725,58485,Add tuya light scenes (effects)
+1726,58457,Fix LIFX component returning the wrong mac address for connection
+1727,58447,Use DeviceInfo Class W-Z
+1728,58445,Use DeviceInfo Class T-V
+1729,58338,Use DeviceInfo Class S
+1730,58226,Wirelesstags reimagined
+1731,58224,Add Zeroconf discovery for ZigStar Zigbee coordinator to ZHA
+1732,58209,Minor refactor of energy validator
+1733,58204,Humidifier fixes and Kettle support
+1734,58201,Add sensor devices to Tuya sensor platform
+1735,58163,Add connectivity binary sensor to SIA
+1736,57954,Remove legacy tests in tradfri
+1737,57933,New features for TED5000 for Energy support
+1738,57883,Add IntesisBox + IntesisHome local support
+1739,57853,Fire event for new Fritz device trackers
+1740,57801,Add command_line sensor json_attributes_path config option
+1741,57631,Add device condition support to the camera integration
+1742,57536,Rationalize command_line template usage
+1743,57534,Refurbish deluge integration using transmission as a blueprint
+1744,57413,Rewrite blackbird unittest tests to pytest
+1745,57406,New Solcast Solar Integration
+1746,57291,Add missing attributes to deCONZ thermostat
+1747,57084,Add Dimmer Light Support for Tuya
+1748,57002,Config flow for comfoconnect
+1749,56985,Improve glances raid monitoring
+1750,56950,Disable discovery for dlna_dmr until it is more selective
+1751,56711,Add group event for platform reload
+1752,56689,Add KEF equalizer (DSP) options as selects and numbers
+1753,56659,Simplify state update for Tile
+1754,56563,Fix DDWRT device_tracker status fetch
+1755,56559,Add homematic STATE channel as attribute
+1756,56515,Add ability to configure amcrest camera on different NVR channels
+1757,56477,Fix core async stop docstring typo
+1758,56426,Patch coinbase
+1759,56423,Password configuration for Solax inverters local connection
+1760,56402,Surepetcare reauthorize
+1761,56374,Renson integration
+1762,56323,WIP: Fix entity platform to not schedule scan_interval <= 0
+1763,56292,Add comfoconnect bypass control
+1764,56280,Track more moon states via attributes
+1765,56194,Poolsense multi device
+1766,56175,Add goe_charger integration
+1767,55980,Plugwise refactoring (base)
+1768,55954,New integration: Poolstation
+1769,55841,Allow multiple Openweathermap instances (modes)
+1770,55779,Add onetime charge of hotwater tank for vicare heaters
+1771,55715,Add multiple adguard support to services
+1772,55628,Enphase Envoy: Configurable scan interval
+1773,55611,Set qvr_pro GUID as unique_id
+1774,55440,Add zeversolar integration
+1775,55394,Change deprecated supported_features to supported_color_modes in Nanoleaf light
+1776,55380,Rainforest Eagle-200 sometimes not reporting correct values with multiple meters
+1777,55327,Activate mypy for sonar
+1778,55254,Fix Solarlog zero totals
+1779,55170,Add more Tractive sensors
+1780,55134,Support for EnergyStorageTrait for vacuum cleaners
+1781,55116,Add account type entity to Forecast.Solar integration
+1782,55114,Add support for Xiaomi Miio pedestal fans
+1783,55029,Add contec controllers integration
+1784,55024,Bump pysyncthru version to 0.7.7
+1785,54983,Add new orange pi boards to orangepi integration
+1786,54954,Support configuring friendly_name on meters with tariffs
+1787,54937,Refactor xiaomi_miio to use state attributes
+1788,54878,Add DC voltage and current to Kostal inverter
+1789,54859,Initial commit for EnaSolar integration
+1790,54799,Remove last_reset attribute and set state class to total_increasing for tibber energy sensors
+1791,54764,Fix connectivity issue in the Youless integration
+1792,54762,Update PULL_REQUEST_TEMPLATE.md
+1793,54750,Add binary sensor platform to Renault integration
+1794,54696,Xiaomi Miio appropriatly raise ConfigEntryAuthFailed/ConfigEntryNotReady
+1795,54600,Update Zwave js to use state class total increasing
+1796,54569,Add Solar Frontier Inverter integration
+1797,54555,"New integration: TED (replaced TED5000, adds support for TED6000)"
+1798,54520,Fix SolarEdge Entity in order to work with new Energy feature
+1799,54406,Deprecate Wink
+1800,54341,Support incrementing brightness using native api for Philips Hue lights
+1801,54329,Extract smappee switch energy attributes into sensors
+1802,54292,Fix aladdin_connect initial state
+1803,54279,Add state_class measurements in wiffi integration
+1804,54278,Update manifest.json for city Bikeintegration
+1805,54210,Use EntityDescription - efergy
+1806,54192,Update const.py to remove extra attribute breaking ebusd sensor initialisation
+1807,54185,Refactor Fronius sensor device class and long term statistics
+1808,54180,Update ModBus data_type default to int16
+1809,54174,Add energy management support to Growatt server integration
+1810,54173,Rfxtrx drop yaml configuration
+1811,54172,Name dsmr_reader sensors more consistent
+1812,54106,Add CONF_STATE_CLASS to sensor/__init__.py
+1813,54093,Use SensorEntityDescription and add state class to System Monitor integration
+1814,54066,Add state_class and use SensorEntityDescription for comfoconnect
+1815,54049,Fix camera state and attributes for agent_dvr
+1816,54046,FortiOS clean up and improve typing
+1817,54043,Activate mypy for AEMET OpenData
+1818,54039,Activate mypy for Enphase Envoy
+1819,54015,Fix update entity prior to adding
+1820,53901,Use additional core constants for envisalink
+1821,53831,Add HVAC Action property for Melcloud ATA Devices
+1822,53821,PCF8574
+1823,53816,Convert @property to _attr_variable for hdmi_sec
+1824,53809,Fix crash when AVM FRITZ!SmartHome devices are unreachable
+1825,53772,Allow settings host and port for lg_soundbar
+1826,53769,Convert property to _attr_variable for lifx
+1827,53759,Add energy consumption sensors to smartthings devices
+1828,53688,Update integration Sabnzbd use attr_variables and named tuple
+1829,53683,"Update integration amcrest with activate mypy,  use attr_variables and named tuple"
+1830,53673,Add support for BloomSky Storm accessory device
+1831,53659,Bump pyatv to 0.8.2
+1832,53641,Correct typing in SwitchBot and activate mypy
+1833,53640,Correct typing in Tado and activate mypy
+1834,53631,Enable strict typing for Spider component
+1835,53628,"Add to the Broadlink integration support for voltage, current, overload and total consumption sensors"
+1836,53585,Strict typing for SamsungTV
+1837,53577,Code improvements yale_smart_alarm
+1838,53548,Bump gios library to version 2.0.0
+1839,53546,Convert NamedTuple to EntityDescription for earlier merged code_style integrations.
+1840,53510,Tuya v2 integration New Update
+1841,53502,Remove webostv service description github link
+1842,53485,Add select_next and select_previous services to Select
+1843,53483,Update rokuecp to 0.8.3
+1844,53457,Add yale_smart_alarm config options flow
+1845,53432,Handle invalid TerminationTime in PullPoint subscription response
+1846,53430,Add new integration for Legrand RFLC
+1847,53416,Expose OpenGarage controller variables as attrs
+1848,53401,Twcmanager integration
+1849,53399,Surepetcare integration update & add Feeder & FeederBowl sensors
+1850,53374,Use entity class attributes for Channels
+1851,53346,Convert to entity descriptions in startca
+1852,53344,Convert to entity descriptions in octoprint
+1853,53341,Use entity descriptions instead of nested dict in fido
+1854,53273,Honeywell sensor
+1855,53268,Add config flow to AnthemAV integration
+1856,53254,Bump pylitterbot to 2021.7.2
+1857,53233,Tibber use dataclass
+1858,53183,Refactor KNX tests
+1859,53086,Fix home_connect test coverage
+1860,52910,Add unquie_id and use _attr for ffmpeg_noise and ffmpeg_motion
+1861,52902,Change kef entity unique_id
+1862,52851,Add template option to entity_id for state and numeric_state triggers
+1863,52832,Add sithl_imow integration
+1864,52807,Bump python-fireservicerota to 0.0.42
+1865,52768,Add modbus climate hvac action and mode support
+1866,52720,Add climate support to Freedompro
+1867,52697,Use entity class attributes for axis
+1868,52664,Use entity class attributes for apple_tv
+1869,52634,Freedompro
+1870,52618,Bump fritzprofiles to 0.7.2
+1871,52601,Append name to unique id of Broadlink RM switches tomake them unique
+1872,52494,Add support for Vacation state on Econet Water Heaters
+1873,52493,Add motionEye binary_sensors
+1874,52490,Add National Environment Agency weather and sensor components
+1875,52486,Clean up goalzero
+1876,52466,Add ezviz alarm control panel platform
+1877,52454,"Prepend the fitbit sensors with ""fitbit_"""
+1878,52429,Speedtestdotnet
+1879,52389,ecovacs - allow the skipping of certain ecovacs devices
+1880,52343,Validate Number value before calling entity method
+1881,52077,Add Lutron fan platform
+1882,52055,Add non-standard modbus register_size
+1883,52030,Add gandi livedns integration
+1884,52004,Add google_translate configuration variables
+1885,51983,Add tld option for google_translate
+1886,51864,"Add ProgettiHWSW RFID, Temperature and Analog sensors"
+1887,51810,Add a basic device tracker for Zyxel T50 modems
+1888,51760,Fix Cool mode in lyric
+1889,51728,Add smartthings wind mode for windfree model
+1890,51687,"Cleanup iCloud config variable ""gps_accuracy_threshold"""
+1891,51609,Add Datacoordinator for garmin connect
+1892,51564,Add speed sensors to the syncthing integration
+1893,51563,Add config flow to skybell integration
+1894,51497,Add strict type annotations to reddit
+1895,51494,Add strict type annotations to nmap_tracker
+1896,51493,Add strict type annotations to netio
+1897,51403,FX Luminaire Luxor low voltage integration
+1898,51374,Correct spelling of SLEEP_SNORING_EPISODE_COUNT
+1899,51295,Add scan interval option to goalzero
+1900,51136,Add support for Frigidaire AC
+1901,51132,Enable temperature sensor for AVM Fritz!Smarthome devices
+1902,51092,Add config flow to decora_wifi
+1903,51091,"Add Rainbird ""Delay Irrigation"" service"
+1904,51032,Add blueprint inputs as automation attributes
+1905,51021,Add attributes to statistics with binary_sensor source
+1906,51002,Add tractive integration
+1907,50998,Adax heaters
+1908,50957,Add config flow to IHC
+1909,50947,Typing improvements for TPLink
+1910,50865,Fix Garmin Connect integration with python-garminconnect-aio
+1911,50856,Add upcoming events for Google calendar entity
+1912,50820,Add entity_id to mqtt-alarm_control_panel templates
+1913,50779,Update DEFAULT_PYTHON in actions to use Python 3.9
+1914,50731,Add honeywell config flow
+1915,50679,Implement SMA options flow
+1916,50621,Add basic config flow for Manual component
+1917,50533,Add uid to decora_wifi
+1918,50440,Expose attributes for UniFi infrastructure devices
+1919,50412,Move attribute imports to use core constants (A-B)
+1920,50352,Add config flow Webostv
+1921,50350,Add modbus register_size
+1922,50302,Add config flow qnap
+1923,50252,Add event containing the media output locations of the tts request
+1924,50233,Add securitas direct integration
+1925,50207,Bump pywilight to 0.0.70
+1926,50152,Add modbus register_size
+1927,50141,Add Ecobee humidifier device_info and unique_id
+1928,50134,Create dataclass to mock entry setup in Broadlink tests
+1929,50109,"Add HVAC_MODE_UNKNOWN to avoid platforms do ""return None"" in ""def hvac_mode()""."
+1930,49983,modbus: uint32
+1931,49974,Entity.device_info typing fixes
+1932,49913,Add service target to Rachio
+1933,49907,githooks: Allow easy copy of HA integrations to custom_components.
+1934,49808,Fix Fritz device tracker multiple routers
+1935,49803,Add service target to Neato
+1936,49799,Fix white_value causing zwave-js to set non-existing values
+1937,49792,Add selectors to rest_command services
+1938,49747,Only initialize Nuki configurations
+1939,49714,"Brunt package update with async, data update coordinator and config flow"
+1940,49663,Remove yaml configuration from fritzbox
+1941,49610,Add Temperature and Humidity Support for Qingping Air Monitor Lite
+1942,49563,Fix select non-ascii sources (channels) in LG Netcast
+1943,49555,Add verisure firmware status
+1944,49447,Reduce broadlink executor jobs at setup time
+1945,49436,"Add new Huawei LTE sensor metadata, improve icons"
+1946,49403,Refactor tahoma integration and move to overkiz domain
+1947,49375,Add unique_id to WOL integration
+1948,49292,Add config flow for ProxmoxVE
+1949,49169,Add brilliant_smart tuya platform
+1950,49083,Update startca API URL
+1951,49057,Expose devices as KNOWN_SPOTIFY_DEVICES needed by custom components
+1952,49045,Re-add KNOWN_CHROMECAST_INFO_KEY for use by custom components
+1953,49003,Expose window detection attribute for Danfoss eTRV
+1954,48923,Add CO2 and efficiency sensors to Vallox
+1955,48799,Update xknx to version 0.18.0
+1956,48747,Register ONVIF handler for event tns1:Device/Trigger/DigitalInput
+1957,48745,Use ONVIF HardwareId if SerialNumber is missing
+1958,48664,Add custom JSONEncoder for subscribe_trigger WS endpoint
+1959,48655,Add quality scale to Shelly integration
+1960,48648,Add Rademacher HomePilot integration
+1961,48589,Use ONVIF HardwareId if SerialNumber is missing
+1962,48556,Improves UX of Utility Meter services
+1963,48448,Add service ota_update to shelly integration
+1964,48338,Add bme280spi integration
+1965,48286,Bump aiohue to current version 2.2.0
+1966,48241,Only raise integrationnotfound for dependencies
+1967,48208,Refactor Netatmo api test
+1968,48194,Add Xiaomi Miio Mi Air Purifier 3C and fan percentage support
+1969,48137,Update to iaqualink 0.4.0
+1970,48135,"Bump nanoleaf to 0.1.0, add unique IDs"
+1971,48131,Add Rest sensor header template
+1972,48108,Add forecast sensor days to OWM
+1973,48107,Add latitude and longitude to openweathermap options dialog
+1974,48049,"Add missing ""auto"" speed to zhimi.humidifier.ca4"
+1975,48033,Clean up SmartTub reminders
+1976,47995,Flexpool.io Sensors Integration
+1977,47963,Add an sensor integration for Flexpool.io
+1978,47926,Improve totalconnect config flow user experience
+1979,47924,Add Xiaomi Air Purifier 3C
+1980,47897,Implement new fan model in Xiaomi Miio
+1981,47696,Add support for Roomba 980 discovery
+1982,47628,Implement reauth for smarttub
+1983,47262,Use humidifier platform for Xiaomi Miio humidifiers
+1984,47240,Modbus bit_switch and bit_sensor implementation
+1985,47198,Apply fix for flux_led lights automatically turning off
+1986,47157,Remove rounding from The Things Network
+1987,47139,Add temperature attribute to mystrom switch
+1988,47071,Add battery support for Sonos Move
+1989,46980,Add services to SmartTub for changing filtration settings
+1990,46978,Home Connect improvements
+1991,46974,Update xknx to 0.17.1
+1992,46939,Add missing target to increase_speed/decrease_speed service
+1993,46938,Use config_entries method to abort already configured pihole
+1994,46923,Add new device_class for windows variant
+1995,46882,Clean up mqtt_room
+1996,46881,Clean up Mitemp_bt constants
+1997,46874,Deprecate knx config_file
+1998,46853,"Config flow, Update coordinator and device info for SAJ integration"
+1999,46846,Fill openweathermap option dialog with setup values
+2000,46771,Add min and max temperature configuration to radiotherm component
+2001,46723,Replace wrong domain returned from xbox api
+2002,46713,Add todoist optional project whitelist
+2003,46708,Add ambient station Indoor PM25
+2004,46662,Add new Binance integration
+2005,46605,Show light state attributes when bulb is off
+2006,46598,Add camera recording service to blink
+2007,46597,Add bulk download service to blink
+2008,46595,Add device_class attribute to ESPHome sensor entities
+2009,46527,Add hive config flow
+2010,46448,Added verify_ssl to octoprint
+2011,46407,Change nanoleaf name to configured name instead of hostname
+2012,46388,Use core constants for modbus
+2013,46361,Update WiLight Cover
+2014,46352,Track all devices in huawei_lte integration
+2015,46301,Add apple tv remote delay command
+2016,46218,Add Rituals Perfume Genie integration
+2017,46216,Add noltari to Tado code owners
+2018,46191,Change Transmission type comments to type hints
+2019,46168,"Trend sensor - Filter ""not set"" state"
+2020,46167,Fix numbers of fetched entries limited to 10
+2021,46149,Refactor genius hub service for climate
+2022,46126,Remove deprecated integrations
+2023,46095,Add amcrest multi-channel NVRs
+2024,46094,Add temperature and power sensor to myStrom integration
+2025,45984,Add configurable variable 'offset' to nederlandse_spoorwegen
+2026,45865,Update Point integration to support 'pir_motion'
+2027,45818,Fix iCloud 2FA
+2028,45801,Add luftdaten noise and radiation sensor
+2029,45751,Make entity_id available in MQTT component templates
+2030,45749,Add Vorwerk integration
+2031,45729,Add events to zwave_js
+2032,45684,Add audio format setting to Microsoft TTS
+2033,45680,Allow specifying Torque PIDs
+2034,45632,Uvc integration Config Flow
+2035,45618,Convert qbittorrent to config flow
+2036,45559,Add additional state attributes for eafm
+2037,45508,Add new sensor device classes: mass
+2038,45483,Add unique_id capability to MPD integration
+2039,45394,Update broadlink module to 0.16.1
+2040,45389,Update ci.yaml
+2041,45383,Remove YAML support from rachio
+2042,45381,Remove YAML support from powerwall
+2043,45379,Remove YAML support from nexia
+2044,45333,Integrate alerts from https://alerts.home-assistant.io/alerts.json
+2045,45330,Convert ozw climate values to correct units
+2046,45274,Add Barry
+2047,45213,Add Webex presence sensor
+2048,45205,Add dhcp discovery properties to mikrotik
+2049,45007,Proxmoxve rework. Add new sensors.
+2050,45005,Register increment and decrement services for the Number integration
+2051,44997,Add debug logging to command line notify
+2052,44972,Add user agent for myq to config flow
+2053,44947,"Add ""less frequent data updates"" option to AccuWeather integration"
+2054,44930,Add denonavr DynamicEQ setting
+2055,44849,Add color mode device attribute
+2056,44794,Configuration yaml scraps
+2057,44779,Introduce wiz integration for the WiZ Platform
+2058,44776,"Bump vlc_telnet to 2.0.1, several bug fixes"
+2059,44760,Add function to Utility Meter to not reset on a timely basis
+2060,44751,Add AI Speaker integration
+2061,44733,Add option to extract single bit from a registry of modbus sensor
+2062,44685,Add INR currency to common constants
+2063,44677,Change how WLED entity names and IDs are chosen
+2064,44666,Refresh status of Panasonic Viera Component for model TX-55GZ1000E
+2065,44620,Use single channel for homematic event subscriptions
+2066,44618,Add new Bittrex integration
+2067,44597,Add support for SwitchBot Curtains
+2068,44575,Automatic spider supported fan speed and hvac
+2069,44548,Add luftdaten noise and radiation sensors
+2070,44522,Introduce wiz_light integration for WiZ bulbs
+2071,44508,Add prometheus sensor component
+2072,44491,Add generic_thermostat unique ID parameter
+2073,44479,Fix config support for multiple Spotify accounts
+2074,44467,Refactor config flow and config entries for IamMeter device
+2075,44448,Add securitas direct integration
+2076,44441,Add wemo outdoorplug
+2077,44410,Add services for randomizing effect & palette
+2078,44380,Add new service to change network modes on huawei LTE router
+2079,44369,[WIP] Adds config flow to pioneer component
+2080,44331,Add Webex presence sensor
+2081,44310,Use callbacks instead of polling in nuki
+2082,44252,Add water tank level for xiamoi_miio zhimi.humidifier.ca4
+2083,44243,Add filename to Octoprint sensors
+2084,44209,Upgrade pillow to 8.0.1
+2085,44141,Refactor and improve Transmission test coverage
+2086,44075,Add alternative set volume method for older pioneer receivers
+2087,44041,Implement remote.delete_command in the Broadlink integration
+2088,44035,Add config flow for OPNsense
+2089,44026,"Opensky: richer event data, reduced data request to service and better error handling"
+2090,44007,Use new PocketCast dependency
+2091,43947,Allow manual configuration of ignored config entries
+2092,43879,Make environment_canada asynchronous
+2093,43837,Fix intesishome passing coroutine to HassJob
+2094,43773,Force fitbit OAuth setup to use external url
+2095,43677,Add broadlink climate platform
+2096,43660,Add Homematic option for jsonport for hosts
+2097,43535,Implement RTSP transport and FFMPeg Snapshot
+2098,43419,Add config flow for Waze Travel Time
+2099,43322,Add reboot service for obihai
+2100,43265,Add config options for retry attempt to tplink integration
+2101,43172,"Alarm Control Panel include ability to display a keypad, depending on user"
+2102,43039,Decrease request volume in nsw fuel
+2103,42909,Add dsmr_reader telegram timestamp and device classes
+2104,42884,Tweak ozw MQTT error message
+2105,42879,Add basic error handling and logging to Volumio
+2106,42851,Add OPNsense gateway status sensors
+2107,42837,Add enhancements to qBittorrent sensor
+2108,42801,Change air pressure unit to hPa in OpenWeatherMap
+2109,42773,Refactor Velux integration
+2110,42696,Bump envoy_reader  version to 0.16.2
+2111,42632,Readded BOM Integration
+2112,42619,Add Support for Doorsensorstate
+2113,42615,Fix Luftdaten.info data retrieval
+2114,42599,Add Energenie PiMote integration
+2115,42549,Add Interlogix Ultrasync Alarm System Integration
+2116,42539,Add verify_ssl option for connection setup to synology_dsm
+2117,42502,Add anomaly integration
+2118,42467,Add F6 and D5 sensor types to the enocean integration
+2119,42453,Add comfoconnect bypass control
+2120,42450,Add remote control platform to Panasonic Viera
+2121,42381,Add sensors to honeywell
+2122,42364,Address and fix comments for OWM
+2123,42359,Add Openplantbook integration
+2124,42326,Add missing device class strings (binary sensor)
+2125,42264,Rewrite media_player unittest tests to pytest style test functions
+2126,42244,"Add ""import"" and ""include"" template features"
+2127,42193,Add proxy support for browse media images
+2128,42130,Add regular playlist to endpoint data in stream
+2129,42124,Add icon to the ISS binary sensor
+2130,42096,"Complete omnilogic platform integrations - light, switch, water_heater"
+2131,42044,Fix duplicate lg_soundbar entities and disable polling
+2132,42031,Use common stirings in deCONZ
+2133,42030,Rewrite google_wifi unittest tests to pytest style
+2134,41978,Remove unused strings in deCONZ config flow
+2135,41906,Add config flow to SPC
+2136,41854,Add config flow for nuki
+2137,41825,Use common strings in smart_texas_meter config flow
+2138,41762,Workflow: add hadolint
+2139,41704,Add open() service to nello
+2140,41639,Add last changed by for ozw lock
+2141,41585,Add support for reordering Shopping List Items via Drag and Drop
+2142,41583,Add device tracker for TP-Link EAP
+2143,41429,Add config_flow and stream selection to foscam
+2144,41413,Add vicare heat pump sensors
+2145,41408,Use common strings in tellduslive config flow
+2146,41407,Use common strings in fritzbox config flow
+2147,41369,Use dict.update() instead of multi line assignment
+2148,41278,Make PR search link not show changes requested PRs
+2149,41242,Add xiaomi_miio Air Purifier 2H (zhimi.airpurifier.mc2)
+2150,41173,Rewrite Wake on LAN Tests to use pytest style
+2151,41170,Use common strings for Onvif config flow
+2152,41141,Rewrite threshold unittest tests to pytest style test functions
+2153,41119,Add Google Nest Device Access / SDM integration
+2154,41116,Rewrite dte_energy_bridge unittest tests to pytest style test functions
+2155,41105,Bump pyowm to 3.1.0
+2156,41097,Use common strings for Almond Config Flow
+2157,41083,Use core GitHub URL in contributing guidelines
+2158,41081,Add config flow to ecovacs
+2159,41077,Update uptime tests to pytest style
+2160,41068,Use common strings for zwave config flow
+2161,41020,Add enocean climate integration
+2162,41019,Add Generic IP Camera config_flow
+2163,41014,Add set sleep number services to Sleepiq
+2164,41008,Add support for removing entities in service group.set
+2165,40991,Use references for invalid_auth in strings.json
+2166,40979,"Replace ""unexpected error"" in strings.json"
+2167,40976,Replace invalid_auth in strings.json
+2168,40973,Update manual_mqtt component to current standards and take code from MQTT Alarm Panel
+2169,40959,Use common strings in traccar config flow
+2170,40954,"Add support for effects, transition/brightness parameters to template light"
+2171,40949,Use references in config flow of devolo_home_control
+2172,40933,Add doorsensor + coordinator to nuki
+2173,40804,Update Pyhiveapi Library Version
+2174,40721,Add service to create events in CalDAV calendars
+2175,40693,Add transition attribute to cover.set_*_position
+2176,40638,Add persistent_notification service to the notify platform
+2177,40615,Update Broadlink translations
+2178,40603,Add unique_id to the light switch
+2179,40567,Fix telegram test dependencies
+2180,40547,Fix fitbit current URL not available while configuring
+2181,40496,Bump amcrest to 1.7.2 and fire amcrest event
+2182,40460,Update zoneminder to exclusively use config flow
+2183,40301,Fix ozone forecast sensors in AccuWeather integration
+2184,40251,Fix yeelight connection issue
+2185,40195,Fix hvv_departures request time
+2186,40155,Add support for Sungrow solar inverters with encrypted TCP modbus communication
+2187,40119,Handle Shelly channel names (if available)
+2188,40090,Fix Clickatell integration
+2189,39920,Implement device discovery in the Broadlink integration
+2190,39842,Add Teletask integration
+2191,39839,Add support for OpenWeatherMap One Call API
+2192,39774,Fix Splunk HEC Event format
+2193,39772,"draft of asuswrt as a device_tracker only, supporting multiple routers"
+2194,39755,Add structure_index config variable to modbus sensor
+2195,39693,Fix switcher_kis services access
+2196,39643,Send sms notify with USB3G (AT command)
+2197,39637,Add honeywell outdoor temp/humidity attributes
+2198,39611,Add parameters for enabling Auth in Apache Kafka integration
+2199,39605,Add renault integration
+2200,39587,Add audio features to Spotify device state attributes
+2201,39564,Refactor sharkiq tests
+2202,39493,Met.no migrate from classic to complete endpoint
+2203,39340,Increase test coverage for rfxtrx integration
+2204,39324,"Add ""main"" or ""sub"" stream option in Foscam IP camera"
+2205,39231,Add Integration for Goal Zero Yeti Power Stations
+2206,39212,Climate - add fan_mode and swing_mode to SET_TEMPERATURE_SCHEMA
+2207,39199,Add usercode support to totalconnect
+2208,39178,Add Shelly integration
+2209,39141,Add config flow to OpenWeatherMap
+2210,39138,Allow users to update their iCloud password when auth fails
+2211,39123,Add support for tplink emulation of devices to sense
+2212,39112,Add config flow to matrix
+2213,39104,Address Kodi code review follow up
+2214,39101,Bump pylint to 2.6.0 and astroid to 2.4.2
+2215,39100,"Bump isort to v5.4.2, pylint to v2.6.0 and use isort main repo as pre-commit hook source"
+2216,39097,Rewrite Hyperion integration
+2217,39055,Allow multiple domains for Google Domains
+2218,38959,Add tests for the wemo component
+2219,38911,Add omnilogic integration
+2220,38818,Update knx climate so it can be used with AC
+2221,38800,Update sensor.py
+2222,38730,Tell Dynalite which channel to use when asking an area about its current preset
+2223,38725,"MetOffice weather to offer 3-hourly and daily data, including forecasts"
+2224,38715,Improve solaredge error handling
+2225,38711,Allow nx584 to arm/disarm partitions
+2226,38667,Add check for flow objects with missing id in SmartThings setup flow
+2227,38628,Migrate rtorrent component to own domain and add services
+2228,38533,"Reduce opensky network traffic, add attributes to events, use aiohttp"
+2229,38527,Exclude disabled entities from device class lookup
+2230,38504,Prevent ping integration from blocking startup
+2231,38454,Add Influxdb precision option
+2232,38447,Add node neighbors to ozw websocket api
+2233,38385,New Mullvad VPN integration
+2234,38353,Add keenetic_ndms2 config flow
+2235,38318,Enhance pyload
+2236,38284,Introduction of Vacation Mode on Alarm Panels
+2237,38194,Add 'cycle_speed' service to fan component
+2238,38053,[WIP] TP-Link omada
+2239,37997,Add connectedcars integration
+2240,37986,Fixing some of the color correction math
+2241,37982,Create option flow for Rfxtrx integration
+2242,37950,Add new clarifai integration for image processing
+2243,37894,Fix the dublin_bus_transport sensor
+2244,37846,Add growatt_rs232 integration for Growatt inverter with RS232 modbus
+2245,37826,Add SolarEdge battery level and dynamic icon for storage sensor
+2246,37814,Add traccar include/exclude device filters
+2247,37800,Add brightsky weather entity
+2248,37781,Apply code quality updates to poolsense
+2249,37717,Add NIU integration
+2250,37698,Add rfxtrx device classes to known types
+2251,37683,Add support for RPi Pimoroni Fan Shim LED using a config entry
+2252,37650,Fix loopenergy callback updating HA before the object is initialised
+2253,37634,Improve dlib integration functionality
+2254,37625,Add images support to matrix notify
+2255,37622,fix: adds defusedxml as denonavr requirement
+2256,37592,Apply more suggestions from bond code review
+2257,37577,Make resilient to errors while receiving SMS
+2258,37464,Add config flow to DSMR integration and remove yaml support
+2259,37408,ProxmoxVE configuration via UI
+2260,37283,Refactor Plex to use fewer private attributes
+2261,37187,Add REST API support for Aruba Instant
+2262,37169,Fix Sound touch ip address lookup
+2263,37098,Bump pyMetno to 0.6.2 with hourly forecast and more daily forecasts
+2264,37087,Improve Smappee integration
+2265,37049,Add devolo sensor devices
+2266,37023,Add smappee binary_sensor platform
+2267,37005,Add Crownstone integration
+2268,36992,Add myIO integration
+2269,36983,Enable storage sensors for proxmox integration
+2270,36982,Support explicitly including entities in the homekit config flow
+2271,36951,Add Tts enqueue
+2272,36944,Fix unifi_direct invalid JSON backslash escaping
+2273,36906,Add new Meteoclimatic integration
+2274,36902,Lutron component overhaul and improvements
+2275,36862,Feature xiaomi aqara motion sensor hack
+2276,36834,Add Huawei LTE operator and network related services
+2277,36832,Bump Plugwise_Smile to v1.0.0
+2278,36805,Wiser integration initial
+2279,36782,Bump pylutron to 0.2.6
+2280,36723,Fix withings body hydration unit of measure to match documented unit of measure.
+2281,36655,Fix threading issue with mcp23017 platform
+2282,36625,Add SIA Alarm systems
+2283,36580,Add mystrom support for temperature of Hardware v2
+2284,36533,Add a service for setting the timer to tado water heaters
+2285,36531,Shelly MQTT integration
+2286,36482,Add config option to set a custom CA
+2287,36460,Fix for returning zero erroneously
+2288,36442,Add snapcast stream sensor and add feature to hide groups
+2289,36428,ONVIF device triggers and homeassistant event
+2290,36339,Add LTE switch to Freebox
+2291,36324,Add optional device_class attribute to group
+2292,36283,Improve systemmonitor
+2293,36258,Tahoma dimmable light
+2294,36237,Add group notification rate limits
+2295,36093,Ensure frontend is available if integrations fail to start - Part 1 of 2
+2296,36032,Add OpenGarage config flow
+2297,35973,Add pulseaudio_loopback media player
+2298,35955,Mobile app sensor patch
+2299,35910,Add ssml support to Google cloud component
+2300,35903,Add new ads datatypes REAL and LREAL
+2301,35818,Enable rpi_gpio polling
+2302,35795,Set webostv scan interval to 10s for quick updates
+2303,35773,Add samsungtv zeroconf discovery
+2304,35761,Add Brand Specific Arming Sequences for AlarmDecoder
+2305,35679,Add media player device actions
+2306,35620,Add device classes to Blink sensors
+2307,35480,Fix temperature util function rounding problem
+2308,35412,Add config flow to synology_srm
+2309,35386,Add TTS support to Heos
+2310,35367,Webostv volume steps delay
+2311,35364,Update lib zigpy-cc to fix issues
+2312,35350,Improve support for homematic garage covers
+2313,35328,Add more verbose error messages to microsoft_face
+2314,35301,Make ping binary_sensor update async
+2315,35292,Add ELV WS980Wifi Component
+2316,35288,Add becker covers
+2317,35287,Update slixmpp library to 1.5.0
+2318,35252,Add Panasonic Viera UPnP subscription
+2319,35239,Upgrade envoy_reader to 0.15.1
+2320,35184,Add sensors to NMBS platform
+2321,35173,Replace importlib_metadata with importlib.metadata on Python 3.8+
+2322,35132,Introduce wiz_light integration for WiZ bulbs
+2323,35072,Fix Enphase Envoy doing I/O in the event loop
+2324,35012,Use pin value change callback for Arduino sensor
+2325,34996,Fix roomba not reporting error
+2326,34883,Add full options to serial sensor platform
+2327,34820,Move DwdWeatherWarningsAPI to a library hosted on PyPI
+2328,34779,Add config flow to Netgear
+2329,34752,Stop requiring home-assistant authentication for meraki
+2330,34735,"Add Blastbot Cloud integration for switch, climate and remote"
+2331,34731,Refactor squeezebox
+2332,34712,Fix get temperature from Xiaomi Window / Door Sensor with Temperature
+2333,34642,Add MetOffice weather forecast and daily update
+2334,34586,Remove fortigate integration
+2335,34558,Add integration support for Neptune Systems Apex Aquacontroller
+2336,34538,Fix regex and filename in MaryTTS
+2337,34486,Enable tracing support for Sentry
+2338,34468,Add config flow to avea and remove yaml configuration
+2339,34455,New FMI Weather and Sensor Integration
+2340,34424,Fix soundtouch slave ip lookup
+2341,34418,Add Ecobee ability to get notifications
+2342,34406,Part 2: Add signal sensor
+2343,34401,Add back Netatmo public weather sensors
+2344,34384,Arcam config flow
+2345,34377,Handle unavailable state in template fan
+2346,34342,"Add lg_netcast option to configure a custom ""turn_off_action"""
+2347,34225,Add unique_id for Xiaomi Vacuums
+2348,34165,Drop UNIT_ prefix for percentage constant
+2349,34109,Add mitemp_bt config flow
+2350,34094,Add ability to choose hci_device for bluetooth_le_tracker
+2351,34089,Fix Roomba setup
+2352,34075,Fix exception in callback async_remove_from_mem
+2353,34064,Add myIO valet mega 1.9.5 integration
+2354,33913,Add payload_template option to RESTful component
+2355,33774,Add config flow for braviatv integration
+2356,33741,Add Hifiberry integration
+2357,33736,Add support for Xiaomi Zero Fog Free Humidifier
+2358,33694,Change Onkyo integration from local poll to local push
+2359,33677,Config flow for tado
+2360,33549,Rachio Async fixes
+2361,33536,Remove MQTT state vacuum value_template support.
+2362,33496,Fix vizio bug where 'host' key is not found in config entry
+2363,33485,Fix asuswrt network failure startup
+2364,33433,Update the Panasonic Viera component
+2365,33393,Add available and state valid property to PulseAudio
+2366,33392,Adds support for docker in network bridge mode.
+2367,33360,Get full response from PulseAudio server
+2368,33263,Add LM75 integration
+2369,33261,Update pyezviz to 0.1.5.5
+2370,33187,Fix pre-commit hooks env for gen_requirements_all & hassfest
+2371,33169,Bump to version 0.8.1 of denonavr
+2372,33114,Refactor DirecTV Integration to Async
+2373,33094,En ocean 1 bs support
+2374,33078,Add aircleaner and humidify service to nexia climate
+2375,32951,Bump version of zigpy-cc
+2376,32858,Add config entry for Flu Near You
+2377,32851,Add Powerwalls integration
+2378,32836,Update bluesound media_player
+2379,32818,Convert amcrest binary sensors from poll to stream
+2380,32653,Clean up custom polling in ZHA device and light
+2381,32640,Breakout tado zone code into a single place
+2382,32632,Increase tado test coverage for open windows
+2383,32599,Add MagicHome integration
+2384,32589,Add scan interval option to darksky weather
+2385,32568,Add support for HEOS groups
+2386,32488,"Add async, templating to query, MSSQL support for sql"
+2387,32451,Implement ezviz PTZ & switches
+2388,32439,Add custom data type support into Modbus climate
+2389,32412,Add Stib-Mivb Brussels transport component
+2390,32371,Convert ddwrt to async
+2391,32250,Add IntesisHome support for air to water heat pumps
+2392,32221,Add preset modes to touchline
+2393,32207,Add F6 and D5 sensor types to the enocean integration
+2394,32126,Add Totalconnect config flow
+2395,32091,Add Xiaomi miio Alarm Control Panel
+2396,32022,Update file headers and outdated documentation links
+2397,31952,Refactor Apple TV integration
+2398,31935,Audit state handling off august bridges and sensors
+2399,31933,Fix Spotify missing random_song
+2400,31929,Fix overdue filter replacement in vallox ventilation
+2401,31889,Add config_flow support to Sensibo component
+2402,31846,Add Aliddns integration
+2403,31799,Refactor generic thermostat
+2404,31684,Add Ubiquiti airCube integration
+2405,31626,Handle missing next train from NS
+2406,31617,Fix lg soundbar
+2407,31590,Add Islamic Prayer Times config flow
+2408,31546,Add config flow for Ubiquiti UniFi Video
+2409,31523,Add Synology SRM sensor to get information from router
+2410,31448,Update azure_event_hub
+2411,31422,Add Tasmota IRHVAC integration
+2412,31386,Add onewire sensors connected behind couplers
+2413,31338,Update Hue data fetching
+2414,31336,Add carson integration
+2415,31325,Add Ziggo Next integration
+2416,31322,Add light control to Sleepiq integration
+2417,31313,WIP: Sure Petcare new features various improvements
+2418,31158,Fix Plugwise climate issues
+2419,31114,Add integration kraken
+2420,31074,Update it.json
+2421,31071,Support  SELECT_SOURCE for Bose soundtouch
+2422,31067,Add Bkk integration
+2423,31035,Add Gammu based local SMS notifications
+2424,31006,Add support for loading zabbix items as sensors
+2425,30983,Add webostv domain to google assistant integration
+2426,30970,Synology integration refactor and new switch for Home Mode
+2427,30930,Fix parsing of offset in google calendar
+2428,30722,Add Sleepiq services
+2429,30715,Improve Swiss public transport
+2430,30660,Add homekit start/stop to logbook
+2431,30651,Add mqtt notify
+2432,30645,Some additions at xiaomi tv component
+2433,30602,Add temperature units to MQTT Climate
+2434,30466,Added VERIFY_SSL variable to OctoPrint component
+2435,30447,Return denonavr source and source list regardless of state
+2436,30424,Support for IamMeter devices
+2437,30420,"Reassignment of maxcube HVAC modes, HVAC actions and presets"
+2438,30378,Add platform Ezviz
+2439,30356,Add support for multiple Fitbit trackers
+2440,30346,Print component import error to logfile
+2441,30321,Add last_online and level attribute to steam online
+2442,30306,Add Stookalert integration
+2443,30283,Add configurable min and max volume to yamaha
+2444,30246,Add light effect support to Alexa
+2445,30229,Add Balboa Spa wifi adapter integration
+2446,30192,Add Honeywell Lyric support
+2447,30190,Add iammeter sensor
+2448,30156,Add Broadlink cover platform
+2449,30138,Refactor ZHA binary_sensor
+2450,30134,Update featured integrations screenshot in README
+2451,30126,Add Alexa message payload info logging
+2452,30121,Add belgian meter and rename some dsmr sensors
+2453,30019,Add template extension coordinates
+2454,29983,Add platform iammeter
+2455,29974,Add DockerPi 4 Channel Relay Raspberry Pi expansion board
+2456,29945,Add exterior blind display category for Alexa
+2457,29941,Prevent tplink state becoming invalid by adding retries
+2458,29918,Update Tahoma component's tahoma-api requirement's version
+2459,29819,PyViCare Version bumped to 0.1.7 (release as of 27.11.2019)
+2460,29596,Add user-agent to fix dwd_weather_warnings setup error
+2461,29590,Add Google stackdriver integration
+2462,29569,Change darksky incorrect state mapper wind(y)
+2463,29563,Add protection via try-catch to Sigfox message parsing
+2464,29466,Move imports to top for tensorflow
+2465,29454,Add binary max sensor for aggregating non-numeric sensors
+2466,29374,Protect Doorbird platform from failing when individual doorbird fails
+2467,29321,Add validator for UUID4 in string format
+2468,29276,Clear miflora sensor state on exception
+2469,29211,Update postnl sensor
+2470,29146,Update service domain for harmony from 'remote' to 'harmony'
+2471,29069,Add reboot command to onvif camera component
+2472,29019,Fix scene applying
+2473,29017,Move imports to top for ecovacs
+2474,28959,Add KEF speakers integration
+2475,28957,Add alarm switches to sonos component
+2476,28910,Add new integration here_weather
+2477,28906,Bump Freebox API version and add sensors
+2478,28905,Extend rest-sensor to work with client-certificates
+2479,28880,Add uptime and number of reboot for bbox sensor
+2480,28866,Mark homeassistant PEP 561 compatible
+2481,28847,Support for pi4ioe5v9xxxx I2C IO expanders
+2482,28837,Update Envoy sensor to configure credentials and grab Inverter Date from updated API
+2483,28821,Add Rhasspy integration
+2484,28716,Add travel_time integration
+2485,28706,Add support for Efesto heating devices
+2486,28690,Add Xiaomi Mi Air Dehumidifier
+2487,28668,Add ConEdison smart energy meter sensor integration
+2488,28661,Add Tankerkoenig integration
+2489,28639,Add Glances sensors dynamically
+2490,28593,Restore timer state on restart
+2491,28581,Add MagicHome integration
+2492,28579,Pull track position from MPD status
+2493,28576,Add broadlink wifi thermostat
+2494,28522,Use generic way to get the tmp directory for vicare
+2495,28513,"Add google additional features to assistant security system, expand envisalink for better compatibility with assistant alarm"
+2496,28406,Add handling of login to newer CGNV4 Hitron modem/routers
+2497,28391,Make facebox able to work with http or https
+2498,28364,Add Particle Cloud integration
+2499,28321,Add SpeedTest config_flow entry
+2500,28319,Update mill climate
+2501,28296,Refactor the ecobee integration
+2502,28289,Jewish calendar config flow
+2503,28276,Implement Alexa.EventDetectionSensor for Alexa
+2504,28266,Add unifiled config_flow
+2505,28241,Refactor Tradfri observation method
+2506,28237,Update Plugwise
+2507,28183,Add Atlona Juno HDMI Switch component
+2508,28136,Allow multiple Transmission clients and add unique_id to entities
+2509,28131,Add config flow for tesla component
+2510,28074,Add Sky+HD
+2511,28048,Add MQTT Remote Component
+2512,27984,Add unique ID to edimax switches
+2513,27964,Add TMB sensor
+2514,27961,Add new Zehnder ComfoAir 350 integration
+2515,27915,Update haanna to latest version
+2516,27902,New sensor platform integration for PSE&G utility gas meter
+2517,27894,Move imports in hangouts component
+2518,27874,Move imports in canary component
+2519,27866,Add Srp energy integration
+2520,27836,Add docker container sensor to Glances integration
+2521,27833,Virtual thermostat
+2522,27828,Translation update
+2523,27742,Add support for SAJ inverters connected via WiFi
+2524,27732,Add battery level attribute to Soma integration
+2525,27728,Move imports in Kodi component
+2526,27721,Add observed entities to bayesian sensor
+2527,27690,Add Gardena component
+2528,27631,Show tradfri battery sensor for FYRTUR blinds
+2529,27623,Add cgllc.airmonitor.b1 support
+2530,27614,Add Sector Alarm integration
+2531,27595,Set MQTT device tracker source type from config
+2532,27593,Add p2pcam integration
+2533,27551,Update PostNL to also contain distributions and letters
+2534,27546,Add config flow for growatt server
+2535,27429,Add opensky location and id event data and currently tracked event
+2536,27425,Calculate a unique CID for each image attached to an smtp email
+2537,27366,Verisure autolock service
+2538,27346,Refactor image processing constants
+2539,27332,Add services.yaml to soundtouch and dominos component
+2540,27293,Fix imports
+2541,27288,Move imports up
+2542,27286,Neato battery sensor
+2543,27271,WIP New Sensor Platform: oru - Orange and Rockland Utility Smart Energy Meter Sensor
+2544,27266,Add tado water heater
+2545,27255,Add Xiaomi PM2.5 Air Quality Monitor S1 (cgllc.airmonitor.s1) support
+2546,27235,Add flume support
+2547,27230,Add Luxtronik integration for multiple heat pump models
+2548,27197,StarLine integration
+2549,27122,Add charge place scotland sensor
+2550,27121,Add things mobile sensor
+2551,27104,Update synologydsm sensor
+2552,27100,Add more Octoprint job info
+2553,27093,Rework mikrotik integration following unifi implementation
+2554,27078,"Switch on/off all lights, and wait for the result"
+2555,26891,Revert nest hvac mode when disabling Eco mode
+2556,26889,New fan platform airscape
+2557,26836,Add neural engine support to amazon_polly
+2558,26781,Fix Onvif setup error: premature end of connection on GetStreamURI
+2559,26714,Run black without --quiet in CI to help debug build
+2560,26676,Add Livebox Router
+2561,26674,Fix eq3btsmart thread synchronisation
+2562,26641,DO NOT MERGE - Refactor bluetooth tracker to config entry
+2563,26631,Add worldclock optional ability of selecting time format
+2564,26620,Fix KeyError exception when triggering an alarm that is already triggered
+2565,26601,Remove initial rest switch http call
+2566,26590,Add config flow to iCloud
+2567,26528,Broadlink remote
+2568,26523,Add upc_connect passwort authentication
+2569,26502,Add sinch integration (notify component)
+2570,26488,Move config and connections to Plex component
+2571,26474,2n entrycom
+2572,26349,Add sensor support for the gogogate2 temperature
+2573,26341,Set onkyo max volume to 200 for newer receivers
+2574,26336,[WIP] Met lightning
+2575,26318,Add Livebox router
+2576,26309,Support new climate arch for zhong_hong
+2577,26233,Add support for temperature and pressure readings from onewire sensor…
+2578,26208,Add support for DOODS Image Processing
+2579,26183,Fix torque degree char
+2580,26109,Adds db and lx sensors to Awair
+2581,26105,Support somfy lock in tahoma
+2582,26092,Add support for turn on/off the display
+2583,26088,Update pylacrosse library to version 0.4.0
+2584,26044,Atome
+2585,25966,Update pyhydroquebec to version 2.4
+2586,25927,Add binary sensor question device class
+2587,25918,Add available_template option to template sensor
+2588,25910,Add files via upload
+2589,25858,Add reproduce state support to input_boolean
+2590,25817,Add Mikrotik sensors
+2591,25769,Add network port support for glances component.
+2592,25715,Remove auto target all entity when using a blank service call
+2593,25698,Add more states for state_topic mqtt cover
+2594,25674,Add config flow for RMV transport
+2595,25668,Add requests-async dependency
+2596,25642,UniFi - allow configuration to not track clients or devices
+2597,25628,Modify climate model for supporting dehumidifier
+2598,25622,Bump version of fritzconnection
+2599,25601,Add FAN_WIND to climate model
+2600,25584,Black
+2601,25576,New Mikrotik Hub component and reworked device tracker
+2602,25557,pylutron PyPI update
+2603,25539,Move elv integration to component and bump pypca
+2604,25500,Add cleaning state code for roborock s6
+2605,25495,Update HIBP sensor to use API v3 and API Key
+2606,25414,Add scan interval to config of Environment Canada sensor
+2607,25397,Add support for Ring Sirens and floodlights
+2608,25386,Add volkswagencarnet component
+2609,25378,Allow rfxtrx network usage
+2610,25364,Add IntesisHome Climate Platform
+2611,25347,Fix for hvac_modes list being null
+2612,25220,Lutron fans
+2613,25210,Hive water heater - Remove Duplication of appending entities
+2614,25147,Notifier specific data on alerts
+2615,25134,Add smsapi notify component
+2616,25083,Use more compatible samsungtv TV key
+2617,25074,Add SystemAIR Ventilation systems
+2618,25044,[WIP] Samsung TV integration using UPNP
+2619,25024,Add radiotherm CT80 current humidity support
+2620,25010,[climate] Bugfix evohome migration
+2621,24997,Template support for alarm_control_panel
+2622,24956,Add travel time attribution/coordinates
+2623,24936,Fixes for incomfort migration to climate-1.0
+2624,24922,Update dublin bus transport url
+2625,24920,Correct RainMachine in device registry
+2626,24919,Add support for Rainforest Eagle-200
+2627,24884,Update Environment Canada platforms
+2628,24868,Add tesla components to entity registry
+2629,24861,Hungarian is also supported in Google Cloud TTS
+2630,24770,Add fan support to lutron_caseta
+2631,24741,Add status update for NIGHT to AlarmDecoder
+2632,24655,Add initial Noonlight component
+2633,24650,'pushed' value of button press was always 0 + added state_changed event
+2634,24549,Add support for zha thermostat
+2635,24428,Rename RitAssist component to FleetGO
+2636,24418,Show items in selected playlist for mpd player
+2637,24367,Merge UniFi device tracker to config entry
+2638,24345,Add support for multiple N26 accounts
+2639,24337,Add LeafSpy Integration
+2640,24211,Add JLR InControl Component
+2641,24070,NPi.GPIO support for Nano Pi NEO/NEO2 boards
+2642,24053,WIP: Add iCloud devices battery status + services
+2643,24014,Add Firmata Component
+2644,23969,WIP: Add evohome water heater
+2645,23963,Add support for Orange FunBox 3 device tracker
+2646,23870,Created optoma projector as a switch component
+2647,23844,Suez water
+2648,23812,Add incomfort sensor and binary_sensor
+2649,23756,Add abbreviation for light template variable names
+2650,23726,Add Linky sensors : yesterday + months + years
+2651,23693,Fix for #23665 in acer_projector component
+2652,23692,Rotel Media Player platform
+2653,23687,Suppress traceback
+2654,23663,Added new sensor meteoalarm to get weather alerts in Europe
+2655,23654,WIP: Add support for weather exposing time zone
+2656,23629,Google Cloud Platform component (TTS)
+2657,23597,Add Hue Dimmer and Hue Tap sensors for Hue integration
+2658,23553,Add HomeKit linked humidity sensor to thermostat accessories
+2659,23546,Switch the Brottsplatskartan component to polling
+2660,23518,Add Remote RPi Component
+2661,23515,Add IPP Printer sensor
+2662,23477,Update requirement version and add switcher_kis services
+2663,23470,Add Trafikverket train component
+2664,23292,Battery attribute & accuracy filter
+2665,23281,Add Minio component
+2666,23175,WIP: Dynamic panels for Hass.io
+2667,23162,Configurable sources and simulate volume
+2668,23036,Added Epson Workforce printer sensor
+2669,23019,Replace pexpect with paramiko for Unifi direct
+2670,23015,Add Honeywell Lyric Component
+2671,22978,Add support for Efesto heating devices
+2672,22803,Adds Amazon rekognition
+2673,22790,Emulate color temperature for non-ct lights in light groups
+2674,22766,Two small improvements to caldav component
+2675,22743,Add configuration options for DDWRT device_tracker
+2676,22698,Remove aws_* notify platforms
+2677,22654,RFC: Avoid GTFS database build race condition
+2678,22651,Return 0 for failed Foscam streams
+2679,22619,Fire event on rflink sensor update
+2680,22607,WebDAV camera
+2681,22588,"Initial part of #22587 - API changes, wait_template, and bayesian.binary_sensor"
+2682,22575,Freebox sensor use shared object
+2683,22573,Support multiple Elk instances
+2684,22569,Update ONVIF component to SUPPORT_STREAM
+2685,22568,Update Foscam component to support stream source
+2686,22557,Fix bitfield values
+2687,22555,Added support for Verisure Climate (heatpumps)
+2688,22536,Added support for CasaTunes Multiroom Audio
+2689,22517,Change HEOS component library and add basic config flow
+2690,22514,Add Somfy MyLink support for Covers
+2691,22448,Updated Heatmiser climate requirements and allow sensor choice
+2692,22446,"Added component camect, which streams camera video using WebRTC"
+2693,22364,New component for Sector Alarm
+2694,22361,Add binary sensor platform ferienapidotde
+2695,22345,Update python yeelight and add nightlight mode sensor
+2696,22316,Fronius (solar energy and inverter) component
+2697,22234,Proxmox VE component
+2698,22153,Proxmox VE Integration
+2699,22151,Add new sensors for Strava
+2700,22150,Remove api streams sensor
+2701,22130,Fix xiaomi aqara cube with lumi.acpartner.v3 gateway
+2702,22124,Added support for CasaTunes Multiroom Audio
+2703,22115,Add an 'ap_name' attribute to the Unifi device tracker
+2704,22110,toon quota violation
+2705,22057,Change xiaomi_aqara cover to lumi.acpartner.v3
+2706,22005,"PS4: When selecting source (ie from a service call), add support for turning the device on"
+2707,22003,Add host variable to thinkingcleaner switch and sensor to work around…
+2708,21995,Add The MovieDB sensor
+2709,21987,Add tesla components to the entity registry
+2710,21950,Add Media Player component for Vizio Sound Bars
+2711,21902,Make !include_dir_list use alphanumeric order
+2712,21886,Prevent toogle to false at restart of ADS platforms
+2713,21868,Benq projector switch platform
+2714,21854,Mobile App: Sensors
+2715,21769,Support for VSX-527-K
+2716,21757,Updated the synology component to work better with the API
+2717,21704,Add Nordpool sensor platform
+2718,21625,Add Withings support
+2719,21606,Expose create/delete cloudhook
+2720,21603,Adds an Amazon Chime Notification compononent
+2721,21588,Add generic_set_away_temperature service
+2722,21553,Envsalink arm night
+2723,21551,Google Assistant: Create and pass context to service calls
+2724,21491,Support for Salda Smarty XV/XP Ventilation Unit
+2725,21482,Fix non-syncthru supporting printers
+2726,21457,Add support for Dyson Purecool 2018 Air Purifiers models TP04 and DP04
+2727,21443,Fix for broken snips component after snips platform update
+2728,21438,Add command_template and value_template for MQTT alarm
+2729,21421,Adding new PlanifNeige component/sensor
+2730,21398,Set SCAN_INTERVAL for CO2Signal component
+2731,21366,Azure DNS Component
+2732,21344,Reddit Sensor
+2733,21343,Adding new PlanifNeige platform/sensor
+2734,21330,Ambiclimate
+2735,21233,Support OpenWRT 18.06 in luci device tracker
+2736,21230,Add Time of Flight Sensor using VL53L1X
+2737,21224,Add Support for Remote RPi GPIO
+2738,21223,Don't dispatch to components when there are no channels for ZHA sensors
+2739,21205,Add Streamlabs Water Monitor
+2740,21183,Camera platform for animated Australian BOM radar imagery
+2741,21177,Allow Namecheap to accept several hosts
+2742,21175,Fix for #19072
+2743,21152,Ampio Smog Air Quality Sensor
+2744,21144,Support for Warmup4IE thermostats
+2745,21141,Adds serial port detection for Z Wave USB Z Sticks
+2746,21104,Add /secure path to host static files need authentication to access
+2747,21004,Growatt sensor
+2748,20970,"Updates to ISY994 Component (Climate 1.0, Improved Z-Wave Device Support, Fix Attribute and Heartbeat Issues)"
+2749,20962,Add target temperature low high to MQTT climate
+2750,20936,Teleinfo
+2751,20907,Lightwave registration
+2752,20830,Switcher boiler integration
+2753,20815,Add cover support for EnOcean
+2754,20793,Add Teletask Component
+2755,20786,add homeassistant-cli to docker images
+2756,20780,"Add ClickSend ""caller"" option"
+2757,20777,Use strict timeout when polling Aquos TV
+2758,20764,Show ted5000 MTU as unavailable
+2759,20755,Add webhook support for Netatmo Cameras
+2760,20737,Bugfix cloud webhooks text response
+2761,20731,Conditionlogic
+2762,20698,Adding new platform Hegel for media_player component
+2763,20687,Fix bad request for some IP ONVIF cameras
+2764,20661,Upgrade flake8 to 3.7.4
+2765,20593,Add Lennox iComfort WiFi thermostat
+2766,20535,New Linky sensor
+2767,20486,WIP: Add 'speaker_volume' feature to homekit component for media_player
+2768,20415,html5 notifications add VAPID support
+2769,20410,Template sensor attributes
+2770,20356,Migrating WAQI component from sensor to air_quality
+2771,20327,Migration of Foobot component from sensor to air quality
+2772,20319,Add minimum/maximum to counter
+2773,20317,Update google_maps.py
+2774,20294,Xiaomi aqara gateway alarm control
+2775,20293,Add mitemp bt sensor device class
+2776,20255,Fix temperature updates via automation overriding away temperature
+2777,20209,Added rudimentary async support for maxcube climate thermostat
+2778,20135,Partially revert recent KNX climate changes
+2779,20118,Improve Philips Hue color conversion 2
+2780,20090,Fire events for Lutron RadioRA2 keypad buttons
+2781,20065,Add timeout option to sensor.rest and binary_sensor.rest.
+2782,20063,Update sensor.nmbs to support vias better + show on map
+2783,20062,Add minimum speed option (one step below low speed) to MQTT Fan
+2784,20060,Added min and max values for temperature sensors used to drive thermo…
+2785,20007,Add Component for PlayStation 4 consoles as integration/config flow
+2786,20000,Sensor for reverse geocoding device_trackers
+2787,19940,Resolve update took to long for denon and entity not added when receiver is powered off
+2788,19936,New component to manage RPi-Cam-Web-Interface through MQTT
+2789,19930,Add Repetier Server sensor
+2790,19889,Add remote.lg netcast
+2791,19861,HomematicIP extend current_operation with additional HMIP modes
+2792,19836,Merge @pnbruckner's Amcrest camera component enhancements
+2793,19835,Add zone attributes if user has a persistent map to use in zone cleaning
+2794,19817,Add EverLights light component
+2795,19773,Remove ESPHome entities on unload
+2796,19759,Depict art frame integration
+2797,19758,WebDAV sensor
+2798,19750,Set climate.opentherm_gw state directly
+2799,19737,Better displaying of different periods
+2800,19732,Expand the rpi_gpio component to support orangepi as well.
+2801,19719,Resolving issue #15944
+2802,19706,"Add option to specify ip address of Lifx bulb, bypassing discovery"
+2803,19704,Add nad telnet
+2804,19671,Use intended display unit for thermostat
+2805,19653,Add support v7 version for Xiaomi AirPurifier PRO
+2806,19647,WIP: Add firmware and config version attributes to harmony component
+2807,19624,Some attribute names need an underscore to be valid (fixes #19623)
+2808,19607,Ebusd integration
+2809,19590,Add color support to emulated hue
+2810,19586,Added device tracker support for Ubee Router
+2811,19561,GitHub Sensor
+2812,19548,Somfy open api
+2813,19545,Fritzbox Wifi as Switch
+2814,19484,[WIP] Web Authentication MFA Provider
+2815,19473,Add support for Monzo Bank
+2816,19469,Add Playstation 4 Component
+2817,19423,ADS light breaks if optional parameter adsvar_brightness is not set
+2818,19367,WIP - Add ZHA device tracker
+2819,19343,"Add ""refresh_preview"" to media_player/lg_netcast"
+2820,19311,Add support for Dyson Purecool 2018 Air Purifiers models TP04 and DP04
+2821,19304,Fix default fail2ban scan interval
+2822,19253,Add automation and script events to logbook filter events
+2823,19233,Add broadlink climate
+2824,19230,New Transmission component
+2825,19216,WIP New VRT NWS sensor
+2826,19204,Add Co2signal sensor
+2827,19190,Add brightness control and proper state handling for x10 cm11a
+2828,19179,Allow using all 4 speeds with the HomeSeer HS-FC200+ fan controller
+2829,19178,Ambient weather platform 2
+2830,19176,Add support for C by GE lights
+2831,19137,Change fail2ban state to be count of current bans
+2832,19136,Add new sensor platform for Islamic prayer times
+2833,19123,Improve Philips Hue color conversion
+2834,19103,Added SUPPORT_SELECT_SOURCE for squeezebox media player
+2835,19093,Change water_heater devices as per architectural discussion
+2836,19083,Google assistant fix target temp for *F values.
+2837,19019,Fix entity unavailable after reconfiguring MQTT availability
+2838,19012,Set unavailable when unreachable
+2839,18947,Add name and extra to upc_connect
+2840,18941,Add Repetier-Server sensor platform
+2841,18863,Add state to mill climate
+2842,18846,Add sensor platform for SolarEdge Monitoring API
+2843,18822,Add X10 sensors support in the mochad component
+2844,18788,Support Mijia 1080p camera on HTTP protocol
+2845,18762,Add kef media_player component
+2846,18749,Emulated hue component now correctly reports non-dimmable entities
+2847,18734,Systemair savecair
+2848,18725,Add an attribute for current power in watts to the Sense binary sensor component.
+2849,18710,Skip state update on null or NaN payload of MQTT Sensor
+2850,18701,Created a new weather platform component for Ambient Weather stations.
+2851,18686,Specifying a device name in lost_iphone now works
+2852,18667,Add MANUAL state of HM-IP-ETRV-2 to supported modes
+2853,18621,LCN component and light platform
+2854,18605,Update to python-pushover 0.4 for sending of image attachments
+2855,18594,Azure maps travel time component
+2856,18586,[WIP] Add Google home alarms sensor
+2857,18536,Changed update method to self.async_update_ha_state
+2858,18531,New component enigma for enigma2 settop boxes. Implements media_player and notify platforms
+2859,18493,ZHA - add events for remote like devices
+2860,18490,Aruba device tracker
+2861,18487,Fibaro components
+2862,18480,Ecoal (esterownik.pl) static fuel boiler and pump controller
+2863,18475,Aruba Advanced Presence Detection
+2864,18342,Bump Credstash version
+2865,18331,WIP: Added support for more tado devices
+2866,18330,"Improve Lutron RadioRA2 support, adding switches and scenes"
+2867,18276,Add the new Velo sensor platform
+2868,18270,WIP: Adding service_template to notify group
+2869,18269,Adding value_template to weblink
+2870,18201,Melissa state_attributes
+2871,18156,Sun named durations
+2872,18146,Add new sun triggers and conditions
+2873,18104,Add nilu air quality sensor platform
+2874,18071,[WIP] Add generic thermostat boost mode
+2875,18070,Buttons and sensors connected to I²c expanders managed from  Raspberry Pi
+2876,18064,Add support for YouLess device using sensor
+2877,18044,Add legrandinone platform to communicate with legrand PLC devices
+2878,18004,add config to load_platform in konnected component
+2879,17956,Add Z-Wave network_status websocket command
+2880,17936,Add EnerTalk Sensor
+2881,17901,[WIP]Support for Multi modbus hub
+2882,17870,Allow non-string variables
+2883,17865,Fix sun conditions
+2884,17854,Updated Brunt code owner
+2885,17849,Add service to set temperature scale for Nest thermostat
+2886,17780,Update Avi-On to work with latest API
+2887,17727,Cleanup for kodi
+2888,17713,Bug fix for clicksend
+2889,17709,Mochad changed to asynchronous. Added reading loop for healthy buffers.
+2890,17654,Add Somfy MyLink support for Covers and Scenes
+2891,17641,Away mode temperature fix for generic thermostat
+2892,17612,Behavior change of fail2ban sensor
+2893,17608,Add support for systemair-savecair climate system
+2894,17602,Météo-france sensor : 1 hour rain forecast
+2895,17575,Update CONTRIBUTING.md
+2896,17552,WIP: Update onkyo-eiscp to 1.2.5
+2897,17535,"MyQ updates, scan_interval, status retries"
+2898,17505,WIP (ToS Review requested) Nordpool spot integration
+2899,17474,Always poll kodi
+2900,17450,Add unique_id to Vera entities
+2901,17378,Support devices like VSX-510
+2902,17371,Added support for tplink Archer C2 router.
+2903,17338,Added melcloud climate component
+2904,17312,Implement delay between press and release for remotes
+2905,17304,Surround sound options not valid on all receiver/zone pairs
+2906,17298,Add away mode support for fritzhome climate
+2907,17271,fix_broadlink_sp2_show_energy
+2908,17255,WIP: Harmony long press
+2909,17221,Add default value to timeout on SamsungTV Device
+2910,17197,Enable BMW component to be unit system aware
+2911,17152,Transport NSW
+2912,17116,Add doorsense sensor for August 3rd Gen Smart Lock Pro
+2913,17110,Fix linky sensor login error
+2914,17090,Update xiaomi_miio.py
+2915,17076,Add more detail for invalid requests to warning log
+2916,17054,[WIP] Add MeteoSwiss weather platform
+2917,16975,WIP: Add new platform AndroidTv/Android devices
+2918,16970,Add type hinting to tplink switch
+2919,16899,Ebusd integration
+2920,16791,WIP Add Tilgin device_tracker support
+2921,16725,New Zeversolar module
+2922,16713,Allow soundtouch to play https content too
+2923,16635,Support abbreviations in discovery topic
+2924,16613,Multiple octoprint servers
+2925,16604,Expand IP control support for older Pioneer receivers
+2926,16576,Adding support for Plum Lightpad
+2927,16508,Support for multiple Octoprint printers
+2928,16481,Make ENTITY_ID_PATTERN not accept uppercase letters
+2929,16458,Limit caching of media player images to maximum of 5 minutes
+2930,16434,Add KNX fan component
+2931,16333,Fix climate device not responding issue for Alexa
+2932,16326,Added Azure VM sensor feature
+2933,16268,Add support for Shelly switch
+2934,16178,Smarty
+2935,16177,Allow split component definitions in packages
+2936,16164,Texecom Component
+2937,16139,Thermoworks Smoke Sensor
+2938,16051,"Fixed status reporting and expose new modes (arm night, arm max)"
+2939,16042,Add Current UV Level to list of conditions of openuv
+2940,16036,New sensor for Transport NSW
+2941,15990,Fix geizhals price parsing
+2942,15961,Enhance sun component
+2943,15943,Allow google_travel_time options to be set by entities
+2944,15935,Rewrite of Trafikverket weather - Multiple sensor types supported
+2945,15933,Adds classificationbox
+2946,15802,"Handle vera remote controls, and devices without a last_scene_time"
+2947,15799,Adding enigma2 media player
+2948,15796,Allow IR packets in Pronto Hex format to be sent to Broadlink switch
+2949,15792,Update luci.py device tracker to work with OpenWRT 18.06
+2950,15774,Add Environment Canada weather platform
+2951,15763,Upgrade voluptuous-serialize to 2.0.0
+2952,15753,Round precipitation forecast to 1 decimal place
+2953,15707,Upgrade Adafruit-DHT==1.3.3
+2954,15706,Upgrade Adafruit-DHT to 1.3.3
+2955,15705,Add Weather Underground (WUnderground) Weather platform
+2956,15664,Add support for NOAA tide information
+2957,15473,Uncomment pybluez requirement in requirements_all.txt
+2958,15455,Delay setup of waze travel time component
+2959,15424,Poll Kodi when watching TV
+2960,15397,Fix for OpenGarage cover getting stuck in state (#15395)
+2961,15389,Add postNL letters
+2962,15382,Added EAP-Controller (Omada)
+2963,15363,add broadlink climate platform
+2964,15354,HTTP Light Component
+2965,15353,"Add Environment Canada component with weather, sensor, and camera platforms"
+2966,15331,Add sleep to prevent API throttling
+2967,15324,Add zoneminder run state sensor and service
+2968,15321,Add zigate component and platforms
+2969,15305,Update color.py to prevent ZeroDivisionError
+2970,15299,Mitsubishi GB-24a (and similar) controller support
+2971,15266,Made the path as Required from Optional
+2972,15228,Add Waze config option for normal/average travel time
+2973,15160,Added Traccar tracker support
+2974,15141,Added support for Wion/EcoPlug devices
+2975,15132,Add Magicseaweed API support
+2976,15126,Add Turn Touch component.
+2977,15121,Philips Hue: Add support for Hue sensors
+2978,15091,Add Alfawise Humidifier
+2979,14976,RitAssist device tracker support
+2980,14968,device_tracker: save and restore consider_home attribute
+2981,14963,Make Pollen.com platform async
+2982,14962,Add PJM sensor
+2983,14933,Update to DoorBirdPy v2 (again)
+2984,14915,Update to python-pushover 0.4 for sending of image attachments
+2985,14912,Added unique id and json_attributes to binary_sensor.mqtt
+2986,14880,Add turn_on/off service to Nest Camera
+2987,14865,Enhancements in the Throttle decorator
+2988,14755,Restore state of ZHA binary_sensor if available
+2989,14714,Allow Waze travel time sensor to get origin/destinations from sensors
+2990,14685,"Fix type errors, decrease timeout, and handle files properly"
+2991,14616,onewire.py
+2992,14608,Add ability to choose language of DarkSky weather component
+2993,14598,Add support for Dyson Hot+Cool Fan as a climate device
+2994,14574,Add services for adding and removing items to shopping list
+2995,14495,WIP: Change version of broadlink switch dependency and add extra auth call.
+2996,14494,Simplify broadlink sensor and add support for energy sensor SP2/SP3.
+2997,14409,[RFC] [WIP] New platform eLan
+2998,14383,Add interval to feedreader.py
+2999,14372,Update mychevy to 0.4.0
+3000,14367,Ebusd integration
+3001,14325,Adds unique ID to Roku for entity registry inclusion
+3002,14308,"Color temperature manual range setting, HS(Hue, Saturation) Topic Support"
+3003,14300,[webostv] play_media(): improve best matching channel
+3004,14289,Cambridge Audio media_player platform
+3005,14244,Xiaomi Cameras - multiple models
+3006,14224,Added modified Philips TV component for Joint Space API V5
+3007,14200,Add EDF Teleinfo sensor
+3008,14134,Adding Ryobi garage door opener
+3009,14125,Support for Aqara door lock
+3010,14123,Add configurable option to choose unique entity ids or not.
+3011,14122,Docker - Chrome for Headless Use
+3012,14112,Add HomeKit firmware revision characteristic
+3013,14091,WIP Lights - Effect Speed Support
+3014,14028,Fix for multiple camera switches naming of entity
+3015,13954,Support setting explicit mute value for Panasonic Viera TV
+3016,13939,Add linky component
+3017,13936,Fix handling of paused children
+3018,13923,Add Alfawise Humidifier as fan component
+3019,13822,Add support for max_volume
+3020,13805,Support fan/vacuum/media_player as Switch in HomeKit
+3021,13798,Support for having a schedule as a trigger or as a standalone sensor.
+3022,13781,Phicomm M1 air sensor
+3023,13761,Broadlink Sensor - switch to connection-less mode
+3024,13748,Modify pushover notify to support attachments
+3025,13706,Sound mode support media_player general and denonavr
+3026,13701,Support binary_sensor and device_tracker for HomeKit
+3027,13561,WIP New Warsaw Public Transport (ZTM) Sensor
+3028,13540,Support new xiaomi aqara device model and LAN protocol 2.0
+3029,13527,Fix FLUX_LED error when no color is set
+3030,13517,Support for multiple MAX!Cube LAN gateways added
+3031,13506,Support for ASUS TinkerBoard GPIO
+3032,13497,Add services for bmw_connected_drive
+3033,13416,Added Epson projector support
+3034,13386,Enable setting a median manually for the band-pass (outlier) filter
+3035,13374,Adding Dominion Energy Sensor
+3036,13282,Upgrade python-forecastio to 1.4.0
+3037,13243,Yeelight: Control the power mode by an additional turn_on parameter
+3038,13177,Support parsing mqtt nested json payload into attributes
+3039,13093,Lint script tweaks
+3040,13046,Added generic hygrostat [WiP]
+3041,12967,Channels clean ups
+3042,12915,Converted SABnzbd to a component
+3043,12912,WIP - folder watchdog
+3044,12910,New - Palo Alto Sensor
+3045,12906,Add a device tracker component relying on PhoneTrack OC
+3046,12899,Update to support new Linksys AP firmware
+3047,12889,add press_button service to roku
+3048,12866,WIP - adds events to Folder sensor for addition/deletion/modification of files
+3049,12854,Disable certificate verification for the python API
+3050,12811,Plex mark devices unavailable if they 'vanish' and clear media
+3051,12795,add a new openwrt device tracker that works out of the box and consolidate the 2 other methods to one file
+3052,12794,Add support for FSR61 switches (Enocean)
+3053,12650,Filter Sensor
+3054,12544,KWB Easyfire component stability fixes
+3055,12542,Adding Roku hub and remote
+3056,12504,cover level can now be set using emulated_hue
+3057,12488,Add support for HomeKit
+3058,12483,Update insteonplm to 0.8.2
+3059,12385,Make WUnderground async
+3060,12361,Pollen.com: Entity Registry updates and cleanup
+3061,12331,zha: Add unique_id to entities
+3062,12304,New Component: KIWI Door Lock
+3063,12264,Fix some rfxtrx devices with multiple sensors
+3064,12218,zha: Expose more information in entity attributes
+3065,12208,Adds folder sensor
+3066,12190,Upgrade wakeonlan to 1.0.0
+3067,12175,Properly handle thresholds of zero
+3068,12159,Wink excluding support
+3069,12144,Specify the minimum python version in the setup.py.
+3070,12133,Fix MQTT last will on graceful disconnect
+3071,12116,Nissan Leaf (Carwings/Nissan Connect EV) Platform
+3072,12100,added media_stop
+3073,12088,Synology home mode switch
+3074,12076,scripts: respect --skip-pip
+3075,12063,Squeezebox Fix duplicate server from discovery
+3076,12006,Add camera proxy
+3077,11986,counter: allow custom increment/decrement amounts
+3078,11962,fix tplink device tracker stop on first error
+3079,11942,Handle more file closing using context manager
+3080,11939,"Add a default username to UVC camera compontent, use if detected user…"
+3081,11937,Add Huawei HiLink router device tracker
+3082,11887,Spotify: Play owned/starred playlists by name/by frontend
+3083,11873,"broadlink support new devices, add send_by_id"
+3084,11862,Improve service by allowing to reference entity id instead of deconz id
+3085,11849,Added password mode to input_text (obscure content of text box)
+3086,11827,Add TP-Link Archer C20 device tracking support
+3087,11747,Spotify: Play owned/starred playlists by name/by frontend
+3088,11684,Update state immediately when turning flux bulb on and off
+3089,11651,Added support for multiple onvif profiles
+3090,11637,Xbox sensor - Extend error handling
+3091,11631,Checking Xiaomi Aqara devices unavailability states
+3092,11596,Snips add say and say_actions services (new)
+3093,11592,Add hide_on_home group option
+3094,11530,Binary Sensor Template: Add icon_template and entity_picture_template support
+3095,11524,Home-Assistant NAD Telnet component
+3096,11494,Autoremove discovered MQTT switch entities on empty config message
+3097,11472,Generic Thermostat - Add AUTO support with heat/cool switches
+3098,11466,Update pushsafer.py
+3099,11454,Add support for MAX! devices via a CUL stick
+3100,11446,"Sensor component for Fronius inverters, storages, and smart meters"
+3101,11429,Get zha switch and binary_sensor state on HA start
+3102,11411,Snips: (fix) handle new intent format and (new) create tts response
+3103,11389,Make config available to auto discovered components
+3104,11347,MQTT thermostat: unquote payloads
+3105,11323,"""Alarm group"" platform"
+3106,11322,Removing need for separate EgardiaServer setup
+3107,11270,Try to fix crashes after Hue refactoring
+3108,11179,Query Samsung TV status via REST end point
+3109,11168,convert alarmdecoder interface from async to sync
+3110,11139,Allow setting headers in camera.generic
+3111,11076,Add support for WeMo Humidifier
+3112,11075,Allow separate command and state OIDs and payloads in SNMP switch
+3113,11071,Added mochad max_xdim_value for older X10 modules
+3114,11059,GeoRSS events sensor enhancements
+3115,11054,Fix async IO in Sesame lock component.
+3116,11047,Updated snips component to expose all values in a slot
+3117,11043,Add Asterisk Call Data Record to mailboxes component
+3118,11012,LG Webos change channel and programs information
+3119,11004,Add Etekcity smart wifi outlets component
+3120,11000,Add support for some Tuya devices.
+3121,10988,Wemo - Use returned device name instead of model_name
+3122,10967,Better rs485 bus support
+3123,10940,Fixing Egardia alarm status shown as unknown after restart
+3124,10919,Export climate status and target temperature to Prometheus
+3125,10880,Link your home-assistant by smart qq
+3126,10865,Added the ability to fire an event when a zwave value changes
+3127,10858,Added support for cover in tellstick
+3128,10856,Rainbird
+3129,10855,get message from qq
+3130,10854,Added current_state to zwave state_changed event
+3131,10852,Get message from your qq
+3132,10837,Get message from your qq
+3133,10826,surpport for qq
+3134,10819,Service for setting a fixed scene of Xiaomi MIIO lights
+3135,10763,Support for AppliedSensors iAQStick
+3136,10749,Meraki AP Device tracker
+3137,10731,TCP Connected (Greenwave Reality) Lights Support
+3138,10717,history_average sensor - time-weighted average of state values from history
+3139,10714,Added support for Plum Lightpad
+3140,10701,Fix mochad issue for RPi and CM19A. Recycle socket on new command to …
+3141,10642,Add Facebook Notification tests
+3142,10625,TCP Connected (Greenwave Reality) Lights Support
+3143,10617,Added sensor state attribute
+3144,10615,Googleplus Image Support
+3145,10603,[WIP] Add: Teleinfo sensor
+3146,10587,Limitlessled: restore previous state from database
+3147,10585,[WIP] Add XboxLive sensor
+3148,10514,Add Ziggo Mediabox XL media_player
+3149,10495,Add ST218 (Zigbee Thermostat) support
+3150,10462,Add hsv_to_rgb and rgb_to_hsv Jinja2 filters
+3151,10454,Fix mochad issue for RPi. Recycle the socket on new command to recover mochad connection
+3152,10451,Return proper status when calling service via REST API
+3153,10444,Added rpi_servo component
+3154,10437,Add fan and reduce I/O calls in radiotherm
+3155,10430,New ViaggiaTreno sensor
+3156,10424,Added Vera scenes
+3157,10423,Add spotify play_media playlist shuffle support
+3158,10321,Add deCONZ component
+3159,10308,Random Identity for new Tradfri Gateway pairings.
+3160,10279,Maintain recorder purge schedule
+3161,10261,add template fan
+3162,10258,Support the OFF state for Kodi boxes running 24/7
+3163,10250,Cover - Updated config schema
+3164,10203,Rfxtrx set recv modes
+3165,10151,Consolidate climate state definitions
+3166,10142,Add ADS component
+3167,10137,Insteon Local Component updates/changes
+3168,10133,Make MQTT reconnection logic more resilient and fix race condition
+3169,10132,Docker healthchecks
+3170,10127,Map tile provider is now configurable
+3171,10114,Add REST light platform
+3172,10081,Wait template - Added functions
+3173,10054,Fixes AirVisual bug regarding incorrect location data
+3174,9964,"Added wall all sensor, camera and tts"
+3175,9946,Refactor Neato botvac components as a vacuum
+3176,9889,WIP: Timer component
+3177,9881,Radio thermostat fix for connectivity problems (#8404)
+3178,9879,Moved siren to Wink from Switch
+3179,9854,"Add entity_picture_template options to Template Cover, Template Light, Template Sensor, and Template Switch"
+3180,9849,Add http_rgb platform
+3181,9806,Add service descriptions
+3182,9804,New Hive Component / Platforms
+3183,9803,integration with Remember The Milk.
+3184,9792,"WIP: Add entity_picture_template options to Template Cover, Template Light, Template Sensor, and Template Switch"
+3185,9786,Tahoma plattform for Somfy Covers and Senors
+3186,9756,Cover service schema - added 'vol.ALLOW_EXTRA'
+3187,9733,WIP: vacuum.xiaomi_miio: read dnd status properly instead of using impreci…
+3188,9711,arlo: Add alarm control panel component
+3189,9706,Added Loxone plattform
+3190,9698,improve RGB support for tradfri
+3191,9680,Add date reminder sensor
+3192,9673,WIP: adds support for analog sensors using Raspberry Pi SPI via MCP
+3193,9672,Clicksend Audio TTS messages platform for notify
+3194,9662,A new platform for controlling Monoprice 6-Zone amplifier
+3195,9656,Fixing bug in egardia component. Updating pythonegardia package requirement to .21 accordingly.
+3196,9594,Use icon_for_battery_level() to set Ring battery level
+3197,9583,Rewrite synology camera by using py-synology package
+3198,9534,plant - check history for min_brightness
+3199,9513,Ring update
+3200,9500,Tesla bug fixes + new component.
+3201,9483,Add Toon support
+3202,9401,Add custom sensor to read temperature from in eq3btsmart
+3203,9377,"Add datetime to ""builtins"" and support for unpacking sequence"
+3204,9343,config_validation.py
+3205,9301,MPD small improvements
+3206,9298,Upgrade mycroftapi to 2.0
+3207,9287,Introducing support to Melnor RainCloud sprinkler systems
+3208,9270,Make generic_thermostat current_operation consistent with operation_list
+3209,9262,Adds pan-tilt hat
+3210,9260,history_average sensor - weighted average of a state values from history
+3211,9222,update broadlink.py to add support for MP1 switch
+3212,9114,Add Pilight light support
+3213,9110,Close stream request once we end up with proxy
+3214,9087,Xiaomi Philips Lights integration
+3215,8992,"Follow Twitter guidelines for media upload by conforming to the ""STAT…"
+3216,8991,test run at adding guest device to allow internal usage of guest state.
+3217,8988,Fix octoprint errors when printer is off/disconnected
+3218,8975,Media Player for Toshiba Cast TV
+3219,8937,Autoconvert distance
+3220,8913,Telnet switch
+3221,8911,Add attribute sensor
+3222,8900,Component/Switch/Sensor for QuickSmart Etherrain/8 network irrigation
+3223,8875,Cover component for RFlink
+3224,8871,DoorBird
+3225,8836,Add worldtidesinfo sensor component
+3226,8834,Warn instead of raise on duplicate YAML key
+3227,8814,Adds London air component
+3228,8789,GeoRSS sensor
+3229,8786,Do not use pychromecast.Chromecast for Cast Groups
+3230,8769,Fix issues with latest Motion Sensor firmware
+3231,8764,"flux_led: support for property ""available"""
+3232,8759,Explicit entity ids
+3233,8750,new climate platform with MQTT
+3234,8738,Fix tradfri error spam
+3235,8725,Stable and asynchronous KNX library.
+3236,8696,Add new tplink device type
+3237,8683,Fixed cert_expiry sensor to delay firing on HA startup
+3238,8663,Expose hue group 0
+3239,8657,Added DWD WarnApp Sensor
+3240,8650,Add 'forecast' ability to yr weather sensor
+3241,8628,Add Wi-Fi enabled Roomba support
+3242,8546,Adding support for mapping keys to value in statsd
+3243,8529,Add Leviton Decora Smart WiFi Device Platform
+3244,8519,Implement trv-on-off config param which causes the state of the TRV to either be reported as on or off
+3245,8476,Add mochad light component
+3246,8467,Added code to enable/disable motion detection for foscam cameras
+3247,8443,WIP: Initial support for IRC
+3248,8417,Add RGB support to switch.flux
+3249,8416,Add services to Xiaomi vacuum (switch.xiaomi_vacuum)
+3250,8413,Fix is_allowed_path for symlinks
+3251,8408,Define the turn on/off action for media player Kodi with scripts
+3252,8366,Mqtt client_id fix for #8315
+3253,8338,Added new platform somfy tahoma covers and senors
+3254,8316,Add support for IntesisHome controllable air conditioners
+3255,8300,Use user-set device names for Linksys Smart Wi-Fi routers (3)
+3256,8278,Added support for upload of remote or local files to slack
+3257,8236,Update USPS.PY to address login and update issues
+3258,8233,Add Initial Mailbox panel and sensor
+3259,8224,Added feature showing the version number of hass
+3260,8208,Support for Wink oauth application authorization
+3261,8202,Add citybikes platform
+3262,8186,telegram_bot platform to only send messages
+3263,8116,Adding done_message to alert
+3264,8056,Openhardwaremonitor
+3265,8037,Add hostname to Splunk
+3266,8020,Add send_command service to RFLink platform
+3267,7999,Add online tracking
+3268,7961,Camera services arm disarm including Netgear Arlo
+3269,7932,Fixed openhome metadata issue
+3270,7914,Add citybikes platform
+3271,7856,blockchain.info sensor
+3272,7794,Axis service vapix call
+3273,7790,Implement date countdown sensor
+3274,7741,Harmony auto discovery via netdisco
+3275,7688,Allow negative chat ID for Telegram
+3276,7684,Added support for Velbus
+3277,7642,Added cover_position as a new state
+3278,7619,Add service to set nest away/home modes
+3279,7592,Added buienradar sensor and weather
+3280,7554,Added support for urlwatch binary sensor.
+3281,7542,Fail gracefully when commands have incorrect padding
+3282,7534,Redesign monitored variables for hp_ilo sensor
+3283,7527,Added Toon support
+3284,7519,Add enable_output service to Yamaha platform
+3285,7503,Fix sonos sleep timer
+3286,7445,Additional Wink lock features
+3287,7396,Added HttpDigestAuth ability to Telegram when sending photos
+3288,7393,MQTT Cover: Fixed status reporting for range with non-zero base
+3289,7351,Added remote toggle & unified remote turn_on/turn_off/toggle api
+3290,7318,Add Radarr sensor
+3291,7294,Telegram Bot enhancements with callback queries and more notification options
+3292,7247,InfluxDB send retry after IOError
+3293,7246,Add support for Zehnder Comfoconnect LAN C bridge.
+3294,7186,Add ability to update Slack status via notify.slack
+3295,7051,Prevent wink state changes from stopping after 6 hours
+3296,6998,[WIP] sensor: add support for the co2mini CO2 and temperature sensor
+3297,6977,Add new media_player platform: Enigma2 Media Player
+3298,6880,Created simple counter sensor
+3299,6869,"Exposed more attributes, enabled play_media tv show or season episodes"
+3300,6861,Add fritzbox_callforwarding
+3301,6836,Implement optional External trigger for ZoneMinder switch
+3302,6815,Allow scene configs to be merged
+3303,6696,Blink token recovery
+3304,6656,Telegram bot as a platform (both webhook and polling)
+3305,6631,Adds Support for Lutron Caseta devices.
+3306,6615,Update operation mode during init
+3307,6576,Alarm.com - Remove PhantomJS and go Async
+3308,6527,Add position command to MQTT cover device
+3309,6526,Receive Telegram messages using async long polling
+3310,6520,Introduced Ring binary sensors and refactored Ring component
+3311,6453,Merging telegram polling with webhook.
+3312,6448,OpenCV Image Processing Platform
+3313,6431,Support StartTLS mail servers in IMAP sensors
+3314,6422,Added possibility to template monitored conditions
+3315,6387,Save the state we send back to HA
+3316,6348,twilio component
+3317,6306,Integration with lockitron
+3318,6257,Log errors when loading yaml
+3319,6205,Test the temperature returned by RM2
+3320,6191,add latitude and longitude configuration to darksky sensor
+3321,6188,Pushbullet notification sensor
+3322,6171,Support Onkyo Receivers via RS232 protocol.
+3323,6038,fixed error caused by POST call with no 'message' inside (for example…
+3324,5981,Added support for conversation service to call an action.
+3325,5966,Zwave config fixe #5933
+3326,5952,Tado climate device
+3327,5948,Add 'entity_picture' property to DarkSkySensor component
+3328,5920,Add MQTT Media Player support
+3329,5888,add c_Elta
+3330,5768,Added send packet service to broadlink component
+3331,5760,KWB Easyfire support
+3332,5756,Fixed bug with Russound integration and added 2 way state support. (Bumped up to v0.1.7)
+3333,5562,Bugfix sonos / refactor of sonos function for TTS
+3334,5542,Apply new customize format to Zwave
+3335,5277,device_tracker.ubus: use dhcp & iwinfo services instead of current multi-step process
+3336,5268,"Add support for ""*"" in zone automation trigger"
+3337,5242,Prevent flic from blocking on event loop
+3338,5207,Support for mipow smart bluetooth LE bulbs
+3339,5137,Add countdown_timer.py
+3340,5105,Add color_temp_command_template for mqtt light component
+3341,5046,Tado device tracker support
+3342,5028,Modify cover tilt and add sensor/countdown_timer
+3343,4921,Tilt switch
+3344,4839,Do not add Nest sensors via discovery
+3345,4837,TTS Component / Google speech platform
+3346,4683,Added str_to_json as global method for templates
+3347,4675,Add DLI PowerSwitch Component
+3348,4563,Add Digital Loggers Web Power Switch Component
+3349,4528,Add Broadlink switch support
+3350,4510,Ecobee service fix and new 'resume program' service
+3351,4448,Broadlink RM2 and A1 sensors support
+3352,4440,Sonos line-in and tv source fixes + Sonos discovery fix.
+3353,4296,Fix synology
+3354,4260,Added denon media player controls via http interface
+3355,4249,Update of scripts
+3356,4242,Add Bose Soundtouch component
+3357,4178,changing to async_generate_entitity_id as old method was not return…
+3358,4131,Add Google Plus geolocation
+3359,4044,new trenitalia sensor
+3360,4038,Update get_age to allow future dates
+3361,4030,WIP: Add zwave entities after node queries complete
+3362,4010,Updated Emulated_Hue to send request info as variables to scripts
+3363,3946,Change the icloud device_tracker platform into a new component
+3364,3945,check the services of a bluetooth device
+3365,3911,X10 switch
+3366,3884,Add new services to alarm_control_panel
+3367,3873,Input boolean fix
+3368,3839,Select next and previous of input select
+3369,3832,Add support for Lutron RadioRA 2 (lights) and Emotiva XMC-1 (media_player)
+3370,3771,Changing import as powerview api did change.
+3371,3766,hue: add support for username configuration option
+3372,3747,Add support for Monzo
+3373,3734,Update README.rst
+3374,3722,Paradox Hub Status Monitoring
+3375,3698,Change name of Forecast.io platform to Dark Sky
+3376,3678,Catch MQTT payload encoding errros
