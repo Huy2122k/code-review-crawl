@@ -2,5 +2,3 @@ gh api -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-1
 
 
 https://github.com/hacksider/Deep-Live-Cam/pull/88
-
-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
